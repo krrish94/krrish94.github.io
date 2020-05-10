@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Krishna Murthy</title>
+    <link>/post/</link>
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Krishna Murthy</copyright>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
+    
+    <item>
+      <title>gradSLAM is accepted to ICRA 2020</title>
+      <link>/post/gradslam/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/post/gradslam/</guid>
+      <description>&lt;p&gt;Our paper on fully differentiable dense SLAM will be (virtually) presented at 
+&lt;a href=&#34;https://www.icra2020.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ICRA 2020&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MonoLayout presented at WACV 2020.</title>
+      <link>/post/monolayout/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/post/monolayout/</guid>
+      <description>&lt;p&gt;Our paper &lt;strong&gt;Monolayout&lt;/strong&gt;, tackling &lt;em&gt;amodal scene layout estimation from a single image&lt;/em&gt;, was presented at 
+&lt;a href=&#34;http://wacv20.wacv.net/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WACV 2020&lt;/a&gt;. For more details, visit our 
+&lt;a href=&#34;https://github.com/hbutsuak95/monolayout&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub repo&lt;/a&gt;, or watch this 
+&lt;a href=&#34;https://www.youtube.com/watch?v=HcroGyo6yRQ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video abstract&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maplite accepted to RAL; will be presented at ICRA 2020.</title>
+      <link>/post/maplite/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/post/maplite/</guid>
+      <description>&lt;p&gt;Our paper &lt;strong&gt;MapLite&lt;/strong&gt;, tackling autonomous rural intersection navigation without a detailed prior map, is accepted for publication in &lt;em&gt;Robotics and Automation Letters&lt;/em&gt;. It will also be presented at the &lt;em&gt;International Conference on Robotics and Automation&lt;/em&gt; (ICRA) 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Excited to launch Kaolin- a 3D deep learning library for PyTorch users</title>
+      <link>/post/kaolin/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/post/kaolin/</guid>
+      <description>&lt;p&gt;During a summer internship at NVIDIA, Toronto, I worked with 
+&lt;a href=&#34;http://www.cs.toronto.edu/~fidler&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prof. Sanja Fidler&amp;rsquo;s&lt;/a&gt; group to build 
+&lt;a href=&#34;https://github.com/NVIDIAGameWorks/kaolin/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaolin&lt;/a&gt;: a 3D deep learning framework for PyTorch users.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
