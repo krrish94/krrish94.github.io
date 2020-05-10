@@ -33,32 +33,42 @@ fi
 # Switch to source branch (creates it if necessary from the current branch)
 if [ `git branch | grep $SRC_BRANCH | tr ' ' '\n' | tail -1` ]
 then
+    echo "Checkout to source branch."
     git checkout $SRC_BRANCH
 else
+    echo "Create and checkout to source branch."
     git checkout -b $SRC_BRANCH
 fi
 
 # Checkout DEPLOY_BRANCH branch
 if [ `git branch | grep $DEPLOY_BRANCH` ]
 then
+  echo "Delete deploy branch.0"
   git branch -D $DEPLOY_BRANCH
 fi
+echo "Create new deploy branch."
 git checkout -b $DEPLOY_BRANCH
 
 # Build site
+echo "Building site."
 hugo
 
 # Delete and move files
-find . -maxdepth 1 ! -name 'assets' ! -name 'bin' ! -name 'config' ! -name 'config.toml' ! -name 'content' ! -name 'data' ! -name 'LICENSE.md' ! -name 'netlify.toml' ! -name 'README.md' ! -name 'scripts' ! -name 'static' ! -name 'themes' ! -name 'update_academic.sh' ! -name 'view.sh' ! -update '.editorconfig' ! -name '.forestry' ! -name '.git' ! -name '.github' ! -name '.gitignore' -exec rm -rf {} \;
+echo "Delete unwanted files"
+find . -maxdepth 1 ! -name 'public' ! -name '.forestry' ! -name '.git' ! -name '.github' ! -name '.gitignore' -exec rm -rf {} \;
+echo "Move files from public onto the base directory."
 mv public/* .
+echo "Delete the old public directory."
 rm -R public/
 
 # Push to DEPLOY_BRANCH
+echo "Pushing to deploy branch."
 git add -fA
 git commit --allow-empty -m "$(git log -1 --pretty=%B)"
 git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH
+echo "Moving back to source branch."
 git checkout $SRC_BRANCH
 
 echo "Deployed successfully!"
