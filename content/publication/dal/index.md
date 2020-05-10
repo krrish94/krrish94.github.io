@@ -1,12 +1,12 @@
 ---
 title: "Deep Active Localization"
 authors:
-- G.V. Sai Krishna
+- sai
 - Keehong Seo
-- Dhaivat Bhatt
-- Vincent Mai
+- dhaivat
+- vincent
 - admin
-- Liam Paull
+- liam
 date: "2019-04-01T00:00:00Z"
 doi: ""
 
