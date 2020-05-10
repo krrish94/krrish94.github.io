@@ -49,7 +49,7 @@ git checkout -b $DEPLOY_BRANCH
 hugo
 
 # Delete and move files
-find . -maxdepth 1 ! -name '.' ! -name '.forestry' ! -name '.git' ! -name '.github' ! -name '.gitignore' -exec rm -rf {} \;
+find . -maxdepth 1 ! -name 'assets' ! -name 'bin' ! -name 'config' ! -name 'config.toml' ! -name 'content' ! -name 'data' ! -name 'LICENSE.md' ! -name 'netlify.toml' ! -name 'README.md' ! -name 'scripts' ! -name 'static' ! -name 'themes' ! -name 'update_academic.sh' ! -name 'view.sh' ! -update '.editorconfig' ! -name '.forestry' ! -name '.git' ! -name '.github' ! -name '.gitignore' -exec rm -rf {} \;
 mv public/* .
 rm -R public/
 
