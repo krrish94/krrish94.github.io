@@ -1,11 +1,11 @@
 ---
 title: "The Earth ain’t Flat: Monocular Reconstruction of Vehicles on Steep and Graded Roads from a Moving Camera"
 authors:
-- Junaid Ahmed Ansari
-- Sarthak Sharma
+- junaid
+- sarthak
 - Anshuman Majumdar
 - admin
-- Madhava Krishna
+- madhav
 date: "2018-04-01T00:00:00Z"
 doi: ""
 

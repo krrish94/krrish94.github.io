@@ -2,8 +2,8 @@
 title: "gradSLAM: Dense SLAM meets automatic differentiation"
 authors:
 - admin
-- Ganesh Iyer
-- Liam Paull
+- ganesh
+- liam
 date: "2020-05-01T00:00:00Z"
 doi: ""
 
@@ -30,7 +30,7 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: Project page
   url: http://montrealrobotics.ca/gradSLAM/
 url_pdf: http://arxiv.org/pdf/1910.10672.pdf
 url_code: '#'

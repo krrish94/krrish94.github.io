@@ -2,9 +2,9 @@
 title: "Reconstructing Vehicles From a Single Image: Shape Priors for Road Scene Understanding"
 authors:
 - admin
-- G.V. Sai Krishna
+- sai
 - Falak Chhaya
-- Madhava Krishna
+- madhav
 date: "2017-01-01T00:00:00Z"
 doi: ""
 
@@ -31,10 +31,10 @@ tags:
 - Source Themes
 featured: false
 
-url_pdf: 'assets/pdf/icra2017.pdf'
+url_pdf: 'files/icra2017.pdf'
 url_code: 'https://github.com/krrish94/ICRA2017'
 # url_dataset: '#'
-url_poster: 'assets/pdf/icra2017_poster.pdf'
+url_poster: 'files/icra2017_poster.pdf'
 # url_project: 'https://junaidcs032.github.io/Geometry_ObjectShape_MOT/'
 # url_slides: ''
 # url_source: '#'

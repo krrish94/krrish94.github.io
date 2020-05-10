@@ -2,8 +2,8 @@
 title: "Shape Priors for Real-Time Monocular Object Localization in Dynamic Environments"
 authors:
 - admin
-- Sarthak Sharma
-- Madhava Krishna
+- sarthak
+- madhav
 date: "2017-04-01T00:00:00Z"
 doi: ""
 
@@ -30,10 +30,10 @@ tags:
 - Source Themes
 featured: false
 
-url_pdf: 'assets/pdf/iros2017.pdf'
+url_pdf: 'files/iros2017.pdf'
 # url_code: 'https://github.com/epiception/CalibNet'
 # url_dataset: '#'
-url_poster: 'assets/pdf/iros2017_poster.pdf'
+url_poster: 'files/iros2017_poster.pdf'
 # url_project: 'https://epiception.github.io/CalibNet/'
 # url_slides: ''
 # url_source: '#'

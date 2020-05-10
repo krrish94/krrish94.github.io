@@ -2,10 +2,10 @@
 title: "CalibNet: Self-Supervised Extrinsic Calibration using 3D Spatial Transformer Networks
 "
 authors:
-- Ganesh Iyer
+- ganesh
 - Karnik Ram
 - admin
-- Madhava Krishna
+- madhav
 date: "2018-04-01T00:00:00Z"
 doi: ""
 
@@ -32,11 +32,14 @@ tags:
 - Source Themes
 featured: false
 
+links:
+- name: Project page
+  url: https://epiception.github.io/CalibNet/
 url_pdf: 'http://arxiv.org/pdf/1803.08181.pdf'
 url_code: 'https://github.com/epiception/CalibNet'
 # url_dataset: '#'
 # url_poster: '#'
-url_project: 'https://epiception.github.io/CalibNet/'
+url_project: '#'
 # url_slides: ''
 # url_source: '#'
 url_video: 'https://youtu.be/WyW9T2dSbec'

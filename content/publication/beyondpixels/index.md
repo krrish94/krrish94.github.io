@@ -1,10 +1,10 @@
 ---
 title: "Beyond Pixels: Leveraging Geometry and Shape Cues for Multi-Object Tracking"
 authors:
-- Sarthak Sharma
-- Junaid Ahmed Ansari
+- sarthak
+- junaid
 - admin
-- Madhava Krishna
+- madhav
 date: "2018-01-01T00:00:00Z"
 doi: ""
 
@@ -31,6 +31,9 @@ tags:
 - Source Themes
 featured: false
 
+links:
+- name: Project page
+  url: https://junaidcs032.github.io/Geometry_ObjectShape_MOT/
 url_pdf: 'http://arxiv.org/pdf/1802.09298.pdf'
 url_code: 'https://github.com/JunaidCS032/MOTBeyondPixels'
 # url_dataset: '#'

@@ -2,10 +2,10 @@
 title: "Geometric Consistency for Self-Supervised End-to-End Visual Odometry"
 authors:
 - admin
-- Ganesh Iyer
-- Gunshi Gupta
-- Madhava Krishna
-- Liam Paull
+- ganesh
+- gunshi
+- madhav
+- liam
 date: "2018-04-01T00:00:00Z"
 doi: ""
 
@@ -32,8 +32,11 @@ tags:
 - Source Themes
 featured: false
 
+links:
+- name: Project page
+  url: https://krrish94.github.io/CTCNet-release/
 url_pdf: 'http://arxiv.org/pdf/1804.03789.pdf'
-url_project: 'https://krrish94.github.io/CTCNet-release/'
+url_project: '#'
 # url_code: '#'
 # url_dataset: '#'
 # url_poster: '#'

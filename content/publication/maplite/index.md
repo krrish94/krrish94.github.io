@@ -1,13 +1,13 @@
 ---
 title: "MapLite: Autonomous intersection navigation without detailed prior maps"
 authors:
-- Teddy Ort
+- teddy
 - admin
 - Rohan Banerjee
-- G.V. Sai Krishna
-- Dhaivat Bhatt
-- Igor Gilitschenski
-- Liam Paull
+- sai
+- dhaivat
+- igor
+- liam
 - Daniela Rus
 date: "2020-04-01T00:00:00Z"
 doi: ""

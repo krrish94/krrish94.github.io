@@ -2,11 +2,11 @@
 title: "INFER: INtermediate representations for FuturE pRediction"
 authors:
 - Shashank Srikanth
-- Junaid Ahmed Ansari
+- junaid
 - Karnik Ram
-- Sarthak Sharma
+- sarthak
 - admin
-- Madhava Krishna
+- madhav
 date: "2019-04-01T00:00:00Z"
 doi: ""
 
@@ -33,11 +33,14 @@ tags:
 - Source Themes
 featured: false
 
+links:
+- name: Project page
+  url: https://talsperre.github.io/INFER/
 url_pdf: 'http://arxiv.org/pdf/1903.10641.pdf'
 url_code: 'https://github.com/talsperre/INFER'
 # url_dataset: '#'
 # url_poster: '#'
-url_project: 'https://talsperre.github.io/INFER/'
+url_project: '#'
 # url_slides: ''
 # url_source: '#'
 url_video: 'https://www.youtube.com/watch?v=sHxXIX-FZoU&feature=youtu.be'
