@@ -66,3 +66,7 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+{{% alert note %}}
+For a complete list see: [publications]({{< ref "#publications" >}}).
+{{% /alert %}}

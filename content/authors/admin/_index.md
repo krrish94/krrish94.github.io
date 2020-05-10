@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Krishna Murthy Jatavallabhula
 
 # Username (this should match the folder name)
 authors:
@@ -10,32 +10,33 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
-  url: ""
+- name: Mila
+  url: "https://mila.quebec/en/"
+- name: Université de Montréal
+  url: "https://www.umontreal.ca/en/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research blends robotics, computer vision, graphics, and physics with deep learning.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Robotics
+- Computer Vision
+- Deep Learning
+- Computer Graphics
+- Physics (simulation)
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MS by Research in Computer Science and Engineering
+    institution: International Institute of Information Technology (IIIT), Hyderabad, India.
+    year: 2017
+  - course: M.Sc. (Tech.) Information Systems
+    institution: Birla Institute of Technology and Science (BITS) Pilani, India.
+    year: 2015
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -47,18 +48,18 @@ social:
   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/krrish94
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.co.uk/citations?user=kcr8134AAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/krrish94
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,6 +71,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a PhD student at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My research strives to develop embodied agents that can perceive, reason, and act intelligently. Central to my research is the idea that we should leverage our deep understanding of the _rules of the world_ (physics, _classical_ robotics/vision/graphics) to support modern deep learning machinery. I spend a fair bit of my time [contributing to](https://github.com/krrish94/) open-source software.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am always interested to connect with people that share similar thoughts or research interests. Drop me a line at `<my-twitter-handle>@gmail.com` if that's you. I also have open spots for interns with a strong background in my areas of interest (please fill out [this form](https://forms.gle/BB5csPfhZ7zUEEgg9) if you'd like to work with us at [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en)).
