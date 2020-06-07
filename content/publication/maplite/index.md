@@ -29,7 +29,7 @@ abstract: In this work, we present MapLite- a one-click autonomous navigation sy
 
 
 # Summary. An optional shortened abstract.
-summary: MapLite is a one-click autonomous navigation system for a vehicle that only uses OpenStreetMap data and local sensing.
+summary: MapLite is a one-click autonomous navigation system for a vehicle that only uses OpenStreetMap data and local sensing (<span style="color:red"><b>**Best paper award, RAL 2019**</b></span>).
 
 tags:
 - Source Themes
