@@ -34,7 +34,7 @@ summary: Kaolin is a PyTorch library aimed at accelerating 3D deep learning rese
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 url_pdf: 'http://arxiv.org/pdf/1911.05063.pdf'
 url_code: 'https://github.com/NVIDIAGameWorks/kaolin'

@@ -33,7 +33,7 @@ summary: MapLite is a one-click autonomous navigation system for a vehicle that 
 
 tags:
 - Source Themes
-featured: false
+featured: true
 
 url_pdf: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8936918'
 # url_code: 'https://hbutsuak95.github.io/monolayout'
