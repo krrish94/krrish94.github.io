@@ -33,6 +33,10 @@ tags:
 - Source Themes
 featured: false
 
+links:
+- name: Project page
+  url: https://hbutsuak95.github.io/monolayout/
+
 url_pdf: http://arxiv.org/pdf/2002.08394.pdf
 url_code: 'https://hbutsuak95.github.io/monolayout'
 # url_dataset: '#'
