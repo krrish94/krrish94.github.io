@@ -43,7 +43,7 @@ bio: My research blends robotics, computer vision, graphics, and physics with de
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:krrish94@gmail.com".
+  link: 'mailto:krrish94@gmail.com'  # For a direct email link, use "mailto:krrish94@gmail.com". Else use "#contact".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/krrish94
@@ -75,4 +75,4 @@ I'm fortunate to actively collaborate on projects with [Derek Nowrouzezahrai](ht
 
 ##### Pro-bono office hours
 
-I've committed to set aside 2 hours a week, for mentoring underrepresented groups in robotics, computer vision, and deep learning. If this is you, and you'd like to branstorm or seek feedback on research, grad school apps, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link).
+I've committed to set aside 2 hours a week, for mentoring underrepresented groups in robotics, computer vision, and deep learning. If this is you, and you'd like to brainstorm or seek feedback on research, grad school apps, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link).
