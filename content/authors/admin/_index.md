@@ -72,9 +72,16 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD student at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My [research](#publications) strives to develop embodied agents that perceive, reason, and act intelligently. I aim to leverage our deep understanding of the _rules of the world_ (physics, _classical_ robotics, vision, graphics) to support modern deep learning machinery.
+I am a PhD candidate at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My [research](#publications) strives to develop embodied agents that perceive, reason, and act intelligently. I aim to leverage our deep understanding of the _rules of the world_ (physics, _classical_ robotics, vision, graphics) to support modern deep learning machinery.
 
-I'm fortunate to actively collaborate on projects with [Derek Nowrouzezahrai](http://www.cim.mcgill.ca/~derek/)'s group at [McGill](http://www.mcgill.ca/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/)'s [group](https://nv-tlabs.github.io/) at [NVIDIA](https://www.nvidia.com/en-us/research/), and [Madhava Krishna](https://robotics.iiit.ac.in/)'s group at [IIIT Hyderabad](http://iiit.ac.in/).I am always interested to connect with people that share similar thoughts or research interests (drop me a line at `<my-twitter-handle>@gmail.com`). At [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en), we have limited open spots for motivated interns with a strong background (please fill out [this form](https://forms.gle/BB5csPfhZ7zUEEgg9) if that's you).
+I'm fortunate to actively collaborate with [Derek Nowrouzezahrai](http://www.cim.mcgill.ca/~derek/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/), and [Madhava Krishna](https://robotics.iiit.ac.in/). I am always interested to connect with people that share similar thoughts or research interests (shoot me an email). 
+
+My research is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/).
+
+
+##### Open internship positions (Winter 2021)
+
+At [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en), we have two open internship spots (likely remote) on differentiable 3D reconstruction and rendering. If interested, please fill out [this form](https://forms.gle/BB5csPfhZ7zUEEgg9) indicating me as a potential mentor.
 
 ##### Pro-bono office hours
 
