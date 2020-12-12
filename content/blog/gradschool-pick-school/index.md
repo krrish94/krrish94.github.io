@@ -5,10 +5,14 @@ date: 2020-11-29
 
 Applying to grad school is easy; picking which programs to apply to is hard.
 
+> **TL; DR:** Pick an advisor, not a school
+
 > **Disclaimer**: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and from discussions I've had over the last few years with some very bright prospective grad students. Much of this is _my view of the process_ and holds (if at all) only for PhD programs in ML/CV/Robotics.
 
 
 **This article is for you if** you really want to do a PhD and are wondering how to pick programs to apply to.
+
+> Special mention to [Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/) and [Vikram Voleti](https://voletiv.github.io/) for proofreading an earlier version of this article.
 
 "So, what schools do you plan to apply to?" is a question I frequently ask prospective grad students. Invariably, the answer is "top-10 or top-15 schools according to XYZ's ranking scheme". I'm not a big fan of this line of thinking -- over the years I've come to realize that there's deeper factors influencing your grad student life than merely the ranking of your prospective school.
 
@@ -34,14 +38,17 @@ Most students look out for the obvious when scouting for advisors: a research ar
 5. **Co-advising:** Many programmes offer you to the flexibility to be co-advised. This might allow you to experience the best of both worlds (e.g. be mentored by early-career and post-tenure researchers) and expose you to multiple groups with a diversity of ideas. Note, however, that you will still need to choose your *primary advisor*, and that it might sometimes be difficult to agree on a direction that would maximally excite all your advisors. In general, I wouldn't worry about (not) being co-advised; especially if both your advisors are at the same school or if they often collaborate. In the long run, it may not matter whether or not you have all of them *formally* listed on your thesis.
 6. **Locked-in advisor vs rotation:** While some programs have your advisor *locked in* when you join the program, others expect you to find a suitable advisor within a year of your admission. Both approaches have their merits. You might realize after joining a program that you and your advisor are a mismatch -- hence it is important to ensure there are alternate advisors available and that they are equally eager to work with you. *Hearsay:* Programs that do not explicitly match advisors during admissions ensure that at least 2-3 prospective advisors express interest in a candidate before extending admit offers. Even in such cases, advisors often find that students' interests tend to evolve over the course of their PhD.
 
+Above all---[as rightly said by Jorge Rodriguez](https://twitter.com/JJRodV/status/1088295825464283136?s=20)-- **choose an advisor who is kind**. Kindness makes up for any deficiencies in the above. Advisors who are kind will keep supporting you no matter what.
+
 
 ## Spend time researching the group, your labmates
 
 Beyond your advisor, your research group and labmates have big impacts on your grad life. Good research groups are inclusive, foster ideas, and offer the opportunity to get meaningful feedback on your work. Spend time researching the structure of the group and analyzing whether you would fancy spending 3-6 years there. I'd suggest looking for:
 
-1. **Composition:** Get a sense of the size of the group (this can vary from a handful to several hundred!). In particular, what are the various levels of researchers in the group (postdocs, senior PhDs, early PhDs, masters, undergrads, interns)? Does the group also have non-technical staff (e.g. office/lab managers to help manage workspace and admins to help with filing reimbursement claims, etc.)? Does the group actively hire part-time visitors/interns to help support research projects?
-2. **Collaborative nature:** Does the group frequently collaborate with other groups at the university? With groups at other universities? If so, are there any frequent collaborators (particularly ones you might fancy working with in future)? A good way to sense this is by sorting through their recent research. Equally important is to get a sense of how the intra-group collaborative structure is (does each student have their own project? do multiple students collaborate on an initiative?)
+1. **Composition:** Get a sense of the size of the group (this can vary from a handful to several hundred!). In particular, what are the various levels of researchers in the group (postdocs, senior PhDs, early PhDs, masters, undergrads, interns)? Does the group also have non-technical staff (e.g. office/lab managers to help manage workspace and admins to help with filing reimbursement claims, etc.)? Does the group actively hire part-time visitors/interns to help support research projects? Is the group diverse enough?
+2. **Collaborative nature:** Does the group frequently collaborate with other groups at the university? With groups at other universities? If so, are there any frequent collaborators (particularly ones you might fancy working with in future)? A good way to sense this is by sorting through their recent research. Equally important is to get a sense of how the intra-group collaborative structure is (does each student have their own project? do multiple students collaborate on an initiative?). Working at a school that tends to often _compete_ can be toxic to your PhD -- you could end up spending more time in authorship tussles or idealogical debates as opposed to work.
 3. **Networking/Outreach:** You might also want to see if the group offers networking and outreach opportunities beyond publishing and presenting research. For instance, does the group actively organize events (conferences/workshops)? Does the group have a frequent set of visitors from academia/industry to give talks and network?
+4. **Student support:** Does the group/school run initiatives to keep grad students _happy_? Are there support systems to identify and deal with mental-health issues (e.g. mental-health first-aid)? Are there internal groups that discuss more than just resarch (diversity and inclusion problems, buddy programs for newly admitted students, other fun student activities)?
 
 
 ## Nature of funding; expected research directions
@@ -50,7 +57,8 @@ Most schools guarantee funding to PhD students at the time of admission. Your ad
 
 1. **Source of funding:** The source of funding may play a role in determining the nature of your research. If you are being funded by a specific project with fixed deliverables, it is possible that your research agenda/role is *locked in* at the time of your admission. However many project proposals are open-ended to allow for the student to scope their own research problems. At the other end of the spectrum are labs with *no-strings-attached* funding, which offers you complete control over what you might want to work on. This is often the case when you are funded by graduate fellowships. It is hard to get a sense of your source of funding before you join a university, but expected research directions are a must-discuss aspect when you visit or talk to prospective advisors.
 2. **Extent of funding:** Some positions might only offer partial funding with the understanding that you will *earn* the rest of your funding via TAships or other admin work. Furthermore, some of these PhD positions might also have fixed durations after which your funding will expire. Make sure you know the extent to which your studies are funded.
-3. **Perks:** It might also be important to know if there are any *perks* to your funding; for instance [my fantastic advisor](http://liampaull.ca) sponsored an all-expenses-paid trip to a top-notch conference during the first year of my PhD just for me to get a feel for the venue and the research landscape.
+3. **Resources:** Does the school have an abundance of resources to support you? E.g. if you're doing ML, you probably want to go to a school/group that has an abundance of GPU compute. This will ensure that resource constraints won't let you compromise on your research -- not being able to finish up a submission because you didn't get a GPU job allocation can be frustrating. Likewise, if you aspire to work on robots, go to a lab with lots of them.
+4. **Perks:** It might also be important to know if there are any *perks* to your funding; for instance [my fantastic advisor](http://liampaull.ca) sponsored an all-expenses-paid trip to a top-notch conference during the first year of my PhD just for me to get a feel for the venue and the research landscape.
 
 
 ## Quality of life
@@ -59,7 +67,8 @@ And then there are other *quality of life* choices such as the ranking of the sc
 
 1. **Brand/ranking:** I have come to believe---over the years---that the ranking of the school does not significantly impact your eventual career trajectory. As rightly pointed out by [Danish](https://www.cs.cmu.edu/~ddanish/) and [Mansi](http://mgupta1410.github.io/) in [this blog post](https://latentfactors.blog/2020/12/06/university-rankings-for-phd-applications/), **"you are the driver of your PhD"**. All the above advisor/group factors applied, **your work speaks for you!** In some cases though, the _brand_ and/or _ranking_ of the school/group might help you. Particularly in communities where credentials are overvalued (such as when founding companies), being in a location that offers you geographical and/or networking advantages serves as a launchpad.
 2. **Geographic factors:** You might also want to consider geographic factors such as the distance from your home country/city, and the overall _likeability_ of the place.
-3. **n-body problems:** Occasionally, prospective students might need to solve n-body problems (i.e., figure things out with their partner/immediate family) -- an important personal life aspect often underlooked.
+3. **n-body problems:** Occasionally, prospective students might need to solve n-body problems (i.e., figure things out with their partner/immediate family) -- an important personal life aspect often underlooked. E.g. if you're in a long-distance relationship, or you have close family that needs attending to, you might want to choose a school/advisor that offers you the flexibility to work remotely as often as needed.
+4. **Stress:** A lot of the above factors when added up with the weight of your graduate studies can impose a lot of stress. Avoid all avoidable stress. Pick schools/groups/advisors that will help you maintain a healthy work-life balance.
 
 
 ## A word of caution
