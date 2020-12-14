@@ -79,9 +79,9 @@ I'm fortunate to actively collaborate with [Derek Nowrouzezahrai](http://www.cim
 My research is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/).
 
 
-##### Open internship positions (Winter 2021)
+<!-- ##### Open internship positions (Winter 2021)
 
-At [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en), we have two open internship spots (likely remote) on differentiable 3D reconstruction and rendering. If interested, please fill out [this form](https://forms.gle/FFQXiwu44K6n9su3A).
+At [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en), we have two open internship spots (likely remote) on differentiable 3D reconstruction and rendering. If interested, please fill out [this form](https://forms.gle/FFQXiwu44K6n9su3A). -->
 
 ##### Pro-bono office hours
 
