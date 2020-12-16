@@ -18,17 +18,13 @@ If you're wondering why I read so many statements, it's partly cause I help proc
 
 I often try and find a 20 or 30-minute block of time before reading a first-draft statement -- I usually have plenty of feedback, most of which is very similar across each statement I read. Over the years I've started curating canned responses/guidelines, and I will attempt to organize them in this post.
 
-<!-- It is hard to come up with a generic recipe for _how to write a successful SOP_. If it were, I wouldn't have many mentees seek help with proofreading and editing statements of purpose. I will attempt to poing out a few things I've seen students do far too often -->
-
-<!-- A generic recipe for writing statements is hard to deliver (and undesirable -- destroys creativity), I will attempt to discern various elements that help *make a statement count*. -->
-
 
 ## Be you
 
 The first bit of trivial, yet essential advice: **be you**. Every statement is unique because it outlines *your* purpose. There's no point optimizing a statement to cater to your prospective reviewers or their interests. Be transparent -- this will allow your potential reviewers to assess your application's needs in the fairest manner possible. Do not feign interest in a particular research area or direction you have no intention in pursuing or just because it's trendy. People can usually tell these apart (particularly if you do not come off as having an in-depth understanding of the area).
 
 
-## Your statement must convey purpose
+## The "purpose" of the statement
 
 A number of statements fail to convey the motivation behind pursuing a particular program. This is a crucial aspect of your SOP -- describe why you are interested in computer science in general, and your sub-field in particular. Reasons could be *goal-driven* (e.g. accelerating drug discovery using reinforcement learning) or *curiosity-driven* (e.g. why does stochastic gradient descent work so well for training neural nets) or something else. Stating them upfront provides reviewers with a pretext for everything that follows in your SOP. See [this tweet](https://twitter.com/kkitani/status/1339225283774308354?s=20) for an endorsement.
 
@@ -37,13 +33,12 @@ A number of statements fail to convey the motivation behind pursuing a particula
 
 > This is specifically for PhD programs
 
-A common pattern I've seen with most SOPs I've read is that they tend to talk a lot about personal traits and qualities. Plenty of statements go on and on about how an applicant thinks they're the most diligent and creative person ever, or about how someone worked very hard to accomplish their goals. Such statements--in my view--suffer a **credibility problem**: the applicant has incentive to brag or exaggerate. Rather, you could let the other parts of your application package (your letters or personal statement or CV) establish personal traits (letter writers do not suffer the aforementioned credibility problem). It helps to think of your SOP as a mini research proposal. Talk about why your research direction is important and exciting. Imagine you were successful; what kind of new applications would then be enabled?
-<!-- Such mentions of personal traits and characteristics are also qualitative: you might always rank yourself to be the most hardworking person you've ever met. If your statement rather focused on facts (scientific or otherwise) and if it talked almost entirely about your past/proposed research, ... -->
+A common pitfall I've seen with most SOPs is that they over-emphasize personal traits and qualities. Plenty of banter about how an applicant thinks they're the most diligent and creative person ever, or about how someone worked very hard to accomplish their goals. Such statements--in my view--suffer a **credibility problem**: the applicant has incentive to brag or exaggerate. Rather, you could let the other parts of your application package establish personal traits. Your letter writers are the best people to do this -- they do not suffer the aforementioned credibility problem. It helps to think of your SOP as a mini research proposal. Talk about why your research direction is important and exciting. Imagine you were successful; what kind of new applications would then be enabled?
 
 
 ## Avoid cliche
 
-At this point I've just lost count of the number of SOPs that start with a childhood anecdote having to do with science fairs or robot competitions or TV shows. As aptly summed up by Kris in this Tweet thread, ["Please don't start your SOP with the word Ureka!"](https://twitter.com/kkitani/status/1334307658426445825?s=20)
+At this point I've lost count of the number of SOPs that start with a childhood anecdote having to do with science fairs or robot competitions or TV shows. As aptly summed up by Kris in this Tweet thread, ["Please don't start your SOP with the word Ureka!"](https://twitter.com/kkitani/status/1334307658426445825?s=20)
 
 
 ## Generic-Specific-Generic
