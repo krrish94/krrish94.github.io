@@ -83,3 +83,5 @@ That's it! The single most important takeaway of this post. As with any piece of
 Drafting and continuously editing out statements can be daunting and/or stressful. However, remember that the end result is worth the effort. I personally draw immense satisfaction from watching SOPs evolve over time; reminiscing Dorothy Parker's quote **"I hate writing, I love having written"**.
 
 > Finally, remember that each school and review committee has different expectations from a statement of purpose. It is best to get each of your statements reviewed by students at the school it is geared towards.
+
+If you have any thoughts to share about this, drop me a line. Twitter DMs welcome too!
