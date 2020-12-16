@@ -7,10 +7,10 @@ Applying to grad school is easy; picking which programs to apply to is hard.
 
 > **TL; DR:** Pick an advisor, not a school
 
-> **Disclaimer**: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and from discussions I've had over the last few years with some very bright prospective grad students. Much of this is _my view of the process_ and holds (if at all) only for PhD programs in ML/CV/Robotics.
+> **Disclaimer**: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and from discussions I've had over the last few years with some very bright prospective grad students. Much of this is _my view of the process_ and holds (if at all) only for North American PhD programs in ML/CV/Robotics.
 
 
-**This article is for you if** you really want to do a PhD and are wondering how to pick programs to apply to.
+**This article is for you if** you really want to do a PhD and are wondering how to pick programs to apply to. It is also for you if you have received multiple admit offers (congratulations!) and are deciding where to go.
 
 > Special mention to [Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/) and [Vikram Voleti](https://voletiv.github.io/) for proofreading an earlier version of this article.
 
