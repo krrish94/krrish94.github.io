@@ -66,6 +66,13 @@ Please, please, do your homework! A number of statements end up listing faculty 
 This is the aspect of a SOP that's the hardest to get right. Personalize your statement to the school and program you are applying for. Many statements merely list 2-3 influential papers per faculty by peeking at their Google Scholar profile. It is important to asses whether your prospective advisors are still actively working in the area. What's more important is to get a sense of your prospective advisor's viewpoints about areas of your interest. With most talks being online and publicly accessible these days, it isn't hard to get hold of a talk by your potential advisors. Look out for anything that might convey their thoughts on a particular problem. Pay great detail to the Q&A during and after the talk. Gauge if these resonate with (or conflict) your views, and list them in your SOP.
 
 
+## Avoid chronology unless necessary
+
+> Courtesy [Vikram Nitin](https://scholar.google.com/citations?user=FLiz6csAAAAJ&hl=en)
+
+A very common tendency is to organize all your projects chronologically. I'd recommend adopting a *most impactful first* ordering strategy instead. Make your opening project count -- having your latest and greatest project is usually better than having a project you did early on in your undergrad.
+
+
 ## Little things
 
 With nearly all SOPs read on digital screens and readers, there's plenty of little things you can do to make your SOP more readable. Hyperlink anything that can be hyperlinked -- people/schools/labs/companies you've worked with, project pages, manuscripts, videos showcasing your work, media coverage; these are all great ways to supplement your statement. If you use colored text, images, or plots, ensure that your palettes are colorblind-friendly.
