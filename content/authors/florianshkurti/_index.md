@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Sanja Fidler
+title: Florian Shkurti
 
 # Username (this should match the folder name)
 authors:
-- sanja
+- florianshkurti
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Associate Professor
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
 - name: University of Toronto
-  url: "http://www.cs.toronto.edu/~fidler/"
+  url: "http://www.cs.toronto.edu/~florian/"
 
 ---

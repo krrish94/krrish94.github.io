@@ -31,12 +31,12 @@ featured: true
 
 links:
 - name: Project page
-  url: http://montrealrobotics.ca/gradSLAM/
+  url: https://gradslam.github.io
 url_pdf: http://arxiv.org/pdf/1910.10672.pdf
-url_code: '#'
+url_code: 'https://github.com/gradslam/gradslam'
 # url_dataset: '#'
 # url_poster: '#'
-url_project: 'http://montrealrobotics.ca/gradSLAM/'
+url_project: 'https://gradslam.github.io'
 # url_slides: ''
 # url_source: '#'
 url_video: 'https://www.youtube.com/watch?v=2ygtSJTmo08&t=1s'

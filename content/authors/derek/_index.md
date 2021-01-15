@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Sanja Fidler
+title: Derek Nowrouzezahrai
 
 # Username (this should match the folder name)
 authors:
-- sanja
+- derek
 
 # Is this the primary user of the site?
 superuser: false
@@ -14,7 +14,7 @@ role: Associate Professor
 
 # Organizations/Affiliations
 organizations:
-- name: University of Toronto
-  url: "http://www.cs.toronto.edu/~fidler/"
+- name: McGill
+  url: "https://www.cim.mcgill.ca/~derek/"
 
 ---
