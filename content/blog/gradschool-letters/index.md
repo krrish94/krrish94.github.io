@@ -91,4 +91,8 @@ If you had a poor grade in an important course or haven't had a publication thus
 
 I hope this clears some air of confusion about reference letters. I'd be very curious to hear any views/takes on LORs. Please drop me an email line or a Twitter DM if this is you.
 
+Here are a few other articles in this series.
+
+1. [How to pick your grad school](http://krrish94.github.io/blog/gradschool-pick-school/)
+2. [Writing a statement of purpose](http://krrish94.github.io/blog/gradschool-sop/)
 

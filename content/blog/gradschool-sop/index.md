@@ -91,3 +91,9 @@ Drafting and continuously editing out statements can be daunting and/or stressfu
 > Finally, remember that each school and review committee has different expectations from a statement of purpose. It is best to get each of your statements reviewed by students at the school it is geared towards.
 
 If you have any thoughts to share about this, drop me a line. Twitter DMs welcome too!
+
+
+Here are a few other articles in this series.
+
+1. [How to pick your grad school](http://krrish94.github.io/blog/gradschool-pick-school/)
+2. [Demystifying letters of recommendation](http://krrish94.github.io/blog/gradschool-letters/)

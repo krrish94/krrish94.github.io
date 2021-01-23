@@ -82,3 +82,9 @@ It's important to note that grad school life is more than just publishing resear
 1. [Tim Dettmers'](https://timdettmers.com/) excellent blogpost titled "[How to Pick Your Grad School](https://timdettmers.com/2020/03/10/how-to-pick-your-grad-school/)"
 2. [This Tweet](https://twitter.com/zacharylipton/status/1327508765525028865?s=20) by [Zachary Lipton](http://zacklipton.com/)
 3. [Danish](https://www.cs.cmu.edu/~ddanish/) and [Mansi](http://mgupta1410.github.io/)'s blog post titled "[University Rankings for PhD Applications](https://latentfactors.blog/2020/12/06/university-rankings-for-phd-applications/)" (this motivated me to work on my unfinished article)
+
+
+Here are a few other articles in this series.
+
+1. [Writing a statement of purpose](http://krrish94.github.io/blog/gradschool-sop/)
+2. [Demystifying letters of recommendation](http://krrish94.github.io/blog/gradschool-letters/)
