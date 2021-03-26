@@ -20,19 +20,19 @@ I often spend 20 or 30-minutes when reading a first-draft statement -- I have pl
 
 ## Be you
 
-The first bit of trivial, yet essential advice: **be you**. Every statement is unique because it outlines *your* purpose. Do not optimize a statement to cater to your prospective reviewers' interests. Be transparent -- this will allow your potential reviewers to assess your application's needs in the fairest manner possible. Do not feign interest in a particular research area or direction you have no intention of pursuing or just because it's trendy. People can usually tell these apart (particularly if you do not come off as having an in-depth understanding of the area).
+The first bit of trivial, yet essential advice: **be you**. Every statement is unique because it outlines *your* purpose. Do not optimize a statement to cater to your prospective reviewers' interests, or due to fear of competition. Be transparent -- this will allow your potential reviewers to assess your application's needs in the fairest manner possible. Do not feign interest in a particular research area or direction you have no intention of pursuing or just because it's trendy. **People can usually tell these apart**, particularly if you do not come off as having an in-depth understanding of the area.
 
 
 ## The "purpose" of the statement
 
-A number of statements fail to convey the motivation behind pursuing a particular program. This is a crucial aspect of your SOP -- describe why you are interested in computer science in general, and your sub-field in particular. Reasons could be *goal-driven* (e.g. accelerating drug discovery using reinforcement learning) or *curiosity-driven* (e.g. why does stochastic gradient descent work so well for training neural nets) or something else. Stating them upfront provides reviewers with a pretext for everything that follows in your SOP. See [this tweet](https://twitter.com/kkitani/status/1339225283774308354?s=20) for an endorsement.
+A number of statements fail to convey the motivation behind pursuing a particular program. This is a crucial aspect of your SOP -- describe why you are interested in computer science in general, and your sub-field in particular. Reasons could be *goal-driven* (e.g. accelerating drug discovery using reinforcement learning) or *curiosity-driven* (e.g. why does stochastic gradient descent work so well for training neural nets) or something else. Stating them upfront provides reviewers with a pretext for everything that follows in your SOP. See [this tweet](https://twitter.com/kkitani/status/1339225283774308354?s=20) for an endorsement. Again, "be you".
 
 
 ## Not a personal statement
 
 > This is specifically for PhD programs
 
-A common pitfall I've seen with most SOPs is that they over-emphasize personal traits and qualities. Such personal claims about diligence, creativity, enthusiasm---in my view---suffer a **credibility problem**. The applicant always has incentive to brag or exaggerate. A better strategy is to let the other parts of your application package establish such personal traits. Your letter writers are the best people to do this -- they do not suffer the aforementioned credibility problem. It helps to think of your SOP as a mini research proposal. Talk about why your research direction is important and exciting. Imagine you were successful; what kind of new applications would then be enabled?
+A common pitfall I've seen with most SOPs is that they over-emphasize personal traits and qualities. Such personal claims about diligence, creativity, and enthusiasm suffer a **credibility problem** because the applicant has incentive to brag or exaggerate. One way to overcome this is by letting the other parts of your application package establish such personal traits. Your letter writers are the best people to do this -- they do not suffer the aforementioned credibility problem. Rather than emphasize personal traits, it helps to think of your SOP as a mini research proposal. Talk about why your research direction is important and exciting. Imagine you were successful; what kind of new applications would then be enabled?
 
 
 ## No cliché
@@ -59,7 +59,7 @@ A good design idea for research statements is the generic-specific-generic patte
 
 ## Think about the full application package
 
-Most students write their SOP as if it were an independent document; few contextualize it with respect to their application materials. You can use your SOP to talk about things that aren't necessarily on your CV (poor academic performance, career disruptions, etc.). Some universities require personal statements in which case that's the best place for these discussions. Alternatively, if you have too many projects to talk about and too little space in your SOP, consider asking one of your letter writers to discuss a project in greater detail. A common mistake people tend to make is to treat the SOP as a verbose form of their CV. Remember that admissions committees always look at your CV.
+Contextualize your SOP with respect to your application materials; don't treat it as if it were an independent document. You can use your SOP to talk about things that aren't necessarily on your CV (poor academic performance, career disruptions, etc.). Some universities require personal statements in which case that's the best place for these discussions. Alternatively, if you have too many projects to talk about and too little space in your SOP, consider asking one of your letter writers to discuss a project in greater detail. A common mistake people tend to make is to treat the SOP as a verbose form of their CV. Remember that admissions committees always look at your CV.
 
 
 ## Do your homework
@@ -72,7 +72,7 @@ Please, please, do your homework! A number of statements end up listing faculty 
 Personalize your statement to the school and program you are applying for. Many statements merely list 2-3 influential papers per faculty by peeking at their Google Scholar profile. It is important to asses whether your prospective advisors are still actively working in the area. What's more important is to get a sense of your prospective advisor's viewpoints about areas of your interest. One way to do this is to watch recent talks by your potential advisors. Look out for anything that might convey their thoughts on a particular problem. The Q&A during and after the talk might present you with additional insights about your potential advisor's perspective.
 
 
-## Little things
+## Hyperlinks and other little things
 
 With nearly all SOPs read on digital screens and readers, there are lots of little things you can do to make your SOP more readable. Hyperlink anything that can be hyperlinked -- people/schools/labs/companies you've worked with, project pages, manuscripts, videos showcasing your work, media coverage; these are all great ways to supplement your statement. If you use colored text, images, or plots, ensure that your palettes are colorblind-friendly.
 
