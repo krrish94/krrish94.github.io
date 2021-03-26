@@ -6,4 +6,4 @@ image:
   caption: 'Awarded a Google PhD fellowship (declined)'
 ---
 
-Extremely honored to be awarded a [Google PhD fellowship](https://research.google/outreach/phd-fellowship/) for "Machine Perception, Speech Technology, and Computer Vision" for 2021 (declined). Thank you Google, for this coveted recognition!
+Extremely honored to be awarded a [Google PhD fellowship](https://research.google/outreach/phd-fellowship/) for "Machine Perception, Speech Technology, and Computer Vision" for 2021. Thank you Google, for this coveted recognition!
