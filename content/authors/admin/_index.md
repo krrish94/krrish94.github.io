@@ -72,18 +72,13 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. A recurring theme in much of my work is to leverage our _understanding of the world_ (physics, "classical" robotics, vision, graphics) to support modern deep learning machinery.
+I am a PhD candidate at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. To achieve this, my work intertwines our _understanding of the world_ (physics, robotics, vision, graphics) with deep learning machinery.
 
-I'm fortunate to actively collaborate with [Derek Nowrouzezahrai](http://www.cim.mcgill.ca/~derek/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/), [Florian Shkurti](https://www.cs.toronto.edu/~florian/), and other excellent researchers.
-<!-- I am always interested to connect with people that share similar thoughts or research interests (shoot me an email).  -->
+I'm fortunate to actively collaborate with [Florian Shkurti](https://www.cs.toronto.edu/~florian/), [Derek Nowrouzezahrai](http://www.cim.mcgill.ca/~derek/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/), and other excellent researchers.
 
 My research is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/).
 
+I am currently away on a research internship with [Dieter Fox](https://homes.cs.washington.edu/~fox/) at [NVIDIA](https://www.nvidia.com/en-us/research/), also working closely with [Animesh Garg](https://animesh.garg.tech/) and [Fabio Ramos](https://fabioramos.github.io/Home.html).
 
-<!-- ##### Open internship positions (Winter 2021)
-
-At [REAL](http://montrealrobotics.ca/) and [Mila](https://mila.quebec/en), we have two open internship spots (likely remote) on differentiable 3D reconstruction and rendering. If interested, please fill out [this form](https://forms.gle/FFQXiwu44K6n9su3A). -->
-
-##### Pro-bono office hours
-
-I've committed to set aside 2 hours a week for mentoring underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link).
+> ##### Pro-bono office hours
+> I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link).
