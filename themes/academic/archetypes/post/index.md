@@ -19,6 +19,7 @@ image:
   caption: ""
   focal_point: ""
   preview_only: false
+  alt: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
