@@ -44,10 +44,10 @@ links:
 # - name: Project page
 #   url: http://montrealrobotics.ca/gradSLAM/
 url_pdf: https://openreview.net/pdf?id=c_E8kFWfhp0
-url_code: '#'
+url_code: 'https://github.com/gradsim/gradsim'
 # url_dataset: '#'
 # url_poster: '#'
-# url_project: 'http://montrealrobotics.ca/gradSLAM/'
+url_project: 'https://gradsim.github.io'
 # url_slides: ''
 # url_source: '#'
 url_video: 'https://youtu.be/YuVdk1b0TVw'
