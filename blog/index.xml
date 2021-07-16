@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog | Krishna Murthy</title>
+    <link>/blog/</link>
+      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <description>Blog</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Krishna Murthy</copyright>
+    <image>
+      <url>/img/krishna.jpg</url>
+      <title>Blog</title>
+      <link>/blog/</link>
+    </image>
+    
+    <item>
+      <title>Gradschool advice - demystifying letters of recommendation</title>
+      <link>/blog/gradschool-letters/</link>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/blog/gradschool-letters/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and discussions I&amp;rsquo;ve had with prospective grad students. Much of this is &lt;em&gt;my view of the process&lt;/em&gt; and holds (if at all) only for North American PhD programs in ML/CV/Robotics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This article is for you if&lt;/strong&gt; you want to know what the constituents of an informative letter of recommendation (LOR) are.&lt;/p&gt;
+&lt;p&gt;Letters of recommendation are an extremely important component of your application package. In many cases admission probabilities are boosted by high-impact letters and dwindled by poorly drafted letters. Nearly all of you would&amp;rsquo;ve approached referees for letters, but many of you might not have read a letter.&lt;/p&gt;
+&lt;p&gt;I will enlist what aspects of a letter make it more impactful, hoping it will enable you to think deeply about your reference letter requests. I figure this post will also help first-time letter writers for North Americal grad school applicants. Often, first-time applicants from a new school/city (particularly in underrepresented groups) are disadvantaged by their referee&amp;rsquo;s lack of expercience writing strong letters, or due to the absence of concretely defined expectations. I hope to &lt;em&gt;level the playing field&lt;/em&gt; a bit, with this post.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This post is also a critique on referees that ask students to draft letters for themselves (I know firsthand a lot of professors/managers in India do this). This is an abhorrent practice and often ends up hurting the student&amp;rsquo;s chances of securing an admit. Nearly all universities realize that most students from certain parts of the world tend to write their own letters and discount these letters. On the off chance that you&amp;rsquo;re reading this post and are a referee that asks students to write their own letters, please don&amp;rsquo;t! You&amp;rsquo;ll do a great deal of good for a student&amp;rsquo;s career by spending an hour or so carefully drafting a letter.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Assumptions:&lt;/strong&gt; This article assumes that your referee knows you very well and has the time to compose a well-thought out letter to support your case.&lt;/p&gt;
+&lt;h2 id=&#34;length&#34;&gt;Length&lt;/h2&gt;
+&lt;p&gt;There&amp;rsquo;s a misconception among several referees and students that letters of recommendation must be limited to a page or less. This is not true. On average, most letters I&amp;rsquo;ve read are 1.5-2 pages in length (only rarely longer).&lt;/p&gt;
+&lt;h2 id=&#34;levels-of-support&#34;&gt;Levels of support&lt;/h2&gt;
+&lt;p&gt;Good letters will not wait until the end to &lt;em&gt;deliver the punchline&lt;/em&gt;. They will begin (and conclude) by making a concrete recommendation. For North American letters, there are four broad levels of support that letters offer. Here&amp;rsquo;s examples of each:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;I &lt;strong&gt;recommend&lt;/strong&gt; XYZ for the [Masters | PhD] program at your university&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I &lt;strong&gt;strongly recommend&lt;/strong&gt; XYZ for the [Masters | PhD] program at your university&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I offer my &lt;strong&gt;strongest recommendation possible&lt;/strong&gt; for XYZ to be admitted to the [Masters | PhD] program at your university&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;I &lt;strong&gt;would not&lt;/strong&gt; recommend XYZ for the [Masters | PhD] program at your university&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Letters of the last type are few; often referees will not offer to write a letter in such a case.&lt;/p&gt;
+&lt;h2 id=&#34;calibration-and-context&#34;&gt;Calibration and Context&lt;/h2&gt;
+&lt;p&gt;An LOR is an endorsement for you by your referee. Now, the admissions committee may or may not know you or your referee. Consequently, there is a large variance in which letters of reference are perceived. Good letters aim to minimize this variance by &lt;em&gt;calibration&lt;/em&gt;: speaking about your achivements, abilities, and potential in a manner that&amp;rsquo;ll enable apparent comparison to other applicants. Good letters will provide an accurate &lt;em&gt;context&lt;/em&gt; in which to evaluate your letter.&lt;/p&gt;
+&lt;!-- (someone the admissions committee presumably doesn&#39;t know), by your referee (who the admissions committee may/may not know). In most cases, the committe relies on letters to provide enough information to warrant choosing a mediocre-ranked student at a top school/group over a top student at a lesser known school or vice versa. Good letters are thus well *calibrated*; they have to speak about your achievements, qualities, and capabilities in a manner that&#39;ll enable comparison to other applicants. An important step towards calibrating letters is to provide the *context* that informs your letter. This context involves explicitly stating the group of students you are being compared to (e.g. all students in your current program, all students graduating from your school in the last 10 years). --&gt;
+&lt;h2 id=&#34;letter-writer-profile&#34;&gt;Letter writer profile&lt;/h2&gt;
+&lt;p&gt;The first step to calibrating letters is to contextualize the profile of the letter writer. This is usually done by providing a very short bio of the referee, stating the referee&amp;rsquo;s experience in their current role, and&amp;mdash;importantly&amp;mdash;the number of students at various levels supervised by them over their career (e.g. X Postdocs, X PhDs, X Masters students, and X undergrad students/interns). It is also important to note the range of positions these alumni went on to take (faculty positions? research scientist at top-orgs? gradschool at top-K places?). It is also important to explicitly state who among these people (and at what stages of their careers) you are being compared with.&lt;/p&gt;
+&lt;h2 id=&#34;association-with-the-letter-writer&#34;&gt;Association with the letter writer&lt;/h2&gt;
+&lt;p&gt;Letter writers need to explicitly state their association with you (advisor/course instructor/manager/colleague/etc.). Letters only have an impact when the referee knows you long enough to speak about your abilities (for research programs in ML, I suspect it would take students a bare minimum of 3-6 months to cultivate this association). Letters from a professor you only took a semester-long class with are therefore not a great choice.&lt;/p&gt;
+&lt;h2 id=&#34;objective-evaluation-matters&#34;&gt;Objective evaluation matters&lt;/h2&gt;
+&lt;p&gt;Most letters objectively compare you to a cohort of students chosen by the letter writer. They often place you in an appropriate quantile within the cohort (e.g. top 2%, bottom 50%, top candidate, etc.). Some letters go to the extent of comparing the student to a recent graduate from the target program and make a strong case for admission. Such objective scores are hard to assign, but form a crucial component of the letter and are looked at in detail. In addition to an objective evaluation in the letter, nearly all schools require the referees to fill out idiosyncratic questionnaires that provide additional analysis of the student within the peer group.&lt;/p&gt;
+&lt;h2 id=&#34;comparisons-with-other-students-in-the-current-application-cycle&#34;&gt;Comparisons with other students in the current application cycle&lt;/h2&gt;
+&lt;p&gt;Some letter writers take their job truly seriously. They compare the student with everyone else they are writing a letter for during the admissions cycle and also provide a preferred ranking scheme. This adds an additional layer of credibility to a letter. This also makes it hard for students to forge letters; as all applicants will now need to have consistent scores and ranks.&lt;/p&gt;
+&lt;h2 id=&#34;well-motivated-description-of-research&#34;&gt;Well-motivated description of research&lt;/h2&gt;
+&lt;p&gt;For the most part, a letter will pick one or more of your projects to talk about in detail. It&amp;rsquo;s important to clearly motivate these research projects so that people from outside your primary area may better appreciate your work. It is somewhat uncommon, but not inconceivable, to have a figure to better illustrate the core idea/results of your project.&lt;/p&gt;
+&lt;!-- ## Why would the student be successful in the program?
+
+A good letter will also state why the referee expects the student to be successful in the program they&#39;re applying to. This can be done by drawing a close parallel with a recent graduate from that programme or by describing your academic potential and your grit/determination. --&gt;
+&lt;h2 id=&#34;personal-qualities-and-traits&#34;&gt;Personal qualities and traits&lt;/h2&gt;
+&lt;p&gt;Another important part of the letter is a description of your personal qualities and traits. Are you an extremely fun person to work with? Do you often organize lab events / socials and other activities? What is your preferred style of work? A good letter would explicitly highlight all these and more. If you haven&amp;rsquo;t been in contact with your referee for a while, you would want to send in a gentle reminder of all activities you carried out, so it doesn&amp;rsquo;t slip away.&lt;/p&gt;
+&lt;h2 id=&#34;quotes-from-closer-mentors&#34;&gt;Quotes from closer mentors&lt;/h2&gt;
+&lt;p&gt;Many advisors are &lt;em&gt;hands-off&lt;/em&gt;, meaning your are often closely supervised by a senior student from the group. Good letters will include direct feedback from your closer mentors and provide a better picture of your abilities.&lt;/p&gt;
+&lt;h2 id=&#34;explaining-blips-and-blemishes&#34;&gt;Explaining blips and blemishes&lt;/h2&gt;
+&lt;p&gt;If you had a poor grade in an important course or haven&amp;rsquo;t had a publication thus far, you can have your letter writers vouch for you and explain away such blips and blemishes. You can often ask your letter writers to talk about ongoing or unpublished work you&amp;rsquo;re carrying out and why it&amp;rsquo;s exciting.&lt;/p&gt;
+&lt;p&gt;I hope this clears some air of confusion about reference letters. I&amp;rsquo;d be very curious to hear any views/takes on LORs. Please drop me an email line or a Twitter DM if this is you.&lt;/p&gt;
+&lt;p&gt;Here are a few other articles in this series.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-pick-school/&#34; rel=&#34;noopener&#34;&gt;How to pick your grad school&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-sop/&#34; rel=&#34;noopener&#34;&gt;Writing a statement of purpose&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gradschool advice - writing a statement of purpose</title>
+      <link>/blog/gradschool-sop/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/blog/gradschool-sop/</guid>
+      <description>&lt;p&gt;Don&amp;rsquo;t just write a statement; make one.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and from discussions I&amp;rsquo;ve had over the last few years with prospective grad students. Much of this is &lt;em&gt;my view of the process&lt;/em&gt; and holds (if at all) only for North American PhD programs in ML/CV/Robotics. Take the advice in this post with a grain of salt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This post is for you if&lt;/strong&gt; you are writing a research statement / statement of purpose (SOP) for grad school applications.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a very opiniated view on statements of purpose (SOPs). In this post I will NOT talk about &lt;em&gt;personal statements&lt;/em&gt; which may be required by some schools.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;For someone that&amp;rsquo;s a grad student, I read a lot of SOPs every year. Over the last 6 months, I&amp;rsquo;ve read more than 50 statements (and helped edit nearly two-dozen). I often find myself giving the same piece of advice across most of these statements, so I thought &lt;em&gt;&amp;ldquo;why not save myself the time by curating the most frequent bits here?&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re wondering why I read so many statements, it&amp;rsquo;s partly cause I help process internship/graduate applications at our group, and most mentees that 
+&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link&#34; rel=&#34;noopener&#34;&gt;seek mentorship from me&lt;/a&gt; are grad school applicants looking for a pair of eyes on their statements.&lt;/p&gt;
+&lt;p&gt;I often spend 20 or 30-minutes when reading a first-draft statement &amp;ndash; I have plenty of redundant feedback across most first-drafts. Over the years I&amp;rsquo;ve started curating canned responses/guidelines, and I will attempt to organize them in this post.&lt;/p&gt;
+&lt;h2 id=&#34;be-you&#34;&gt;Be you&lt;/h2&gt;
+&lt;p&gt;The first bit of trivial, yet essential advice: &lt;strong&gt;be you&lt;/strong&gt;. Every statement is unique because it outlines &lt;em&gt;your&lt;/em&gt; purpose. Do not optimize a statement to cater to your prospective reviewers&amp;rsquo; interests, or due to fear of competition. Be transparent &amp;ndash; this will allow your potential reviewers to assess your application&amp;rsquo;s needs in the fairest manner possible. Do not feign interest in a particular research area or direction you have no intention of pursuing or just because it&amp;rsquo;s trendy. &lt;strong&gt;People can usually tell these apart&lt;/strong&gt;, particularly if you do not come off as having an in-depth understanding of the area.&lt;/p&gt;
+&lt;h2 id=&#34;the-purpose-of-the-statement&#34;&gt;The &amp;ldquo;purpose&amp;rdquo; of the statement&lt;/h2&gt;
+&lt;p&gt;A number of statements fail to convey the motivation behind pursuing a particular program. This is a crucial aspect of your SOP &amp;ndash; describe why you are interested in computer science in general, and your sub-field in particular. Reasons could be &lt;em&gt;goal-driven&lt;/em&gt; (e.g. accelerating drug discovery using reinforcement learning) or &lt;em&gt;curiosity-driven&lt;/em&gt; (e.g. why does stochastic gradient descent work so well for training neural nets) or something else. Stating them upfront provides reviewers with a pretext for everything that follows in your SOP. See 
+&lt;a href=&#34;https://twitter.com/kkitani/status/1339225283774308354?s=20&#34; rel=&#34;noopener&#34;&gt;this tweet&lt;/a&gt; for an endorsement. Again, &amp;ldquo;be you&amp;rdquo;.&lt;/p&gt;
+&lt;h2 id=&#34;not-a-personal-statement&#34;&gt;Not a personal statement&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is specifically for PhD programs&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A common pitfall I&amp;rsquo;ve seen with most SOPs is that they over-emphasize personal traits and qualities. Such personal claims about diligence, creativity, and enthusiasm suffer a &lt;strong&gt;credibility problem&lt;/strong&gt; because the applicant has incentive to brag or exaggerate. One way to overcome this is by letting the other parts of your application package establish such personal traits. Your letter writers are the best people to do this &amp;ndash; they do not suffer the aforementioned credibility problem. Rather than emphasize personal traits, it helps to think of your SOP as a mini research proposal. Talk about why your research direction is important and exciting. Imagine you were successful; what kind of new applications would then be enabled?&lt;/p&gt;
+&lt;h2 id=&#34;no-cliché&#34;&gt;No cliché&lt;/h2&gt;
+&lt;p&gt;At this point I&amp;rsquo;ve lost count of the number of SOPs that start with a childhood anecdote having to do with science fairs or robot competitions or TV shows. As aptly summed up by Kris in this Tweet thread, 
+&lt;a href=&#34;https://twitter.com/kkitani/status/1334307658426445825?s=20&#34; rel=&#34;noopener&#34;&gt;&amp;ldquo;Please don&amp;rsquo;t start your SOP with the word Ureka!&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;avoid-chronology-unless-absolutely-necessary&#34;&gt;Avoid chronology unless &amp;ldquo;absolutely&amp;rdquo; necessary&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Courtesy 
+&lt;a href=&#34;https://scholar.google.com/citations?user=FLiz6csAAAAJ&amp;amp;hl=en&#34; rel=&#34;noopener&#34;&gt;Vikram Nitin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A very common failure mode is to organize all your projects chronologically. Worse still, many statements begin with a description of undergrad, high-school, or middle-school. This usually leaves very little room to talk about research agenda. Also admission committees are interested in knowing the &lt;em&gt;set&lt;/em&gt; of your research themes, not the &lt;em&gt;sequence&lt;/em&gt;. Adopt a &amp;ldquo;most impactful first&amp;rdquo; ordering. Make your opening project count &amp;ndash; better to open with your latest-and-greatest project than a project you did early on in your undergrad.&lt;/p&gt;
+&lt;h2 id=&#34;emphasis-on-future-research&#34;&gt;Emphasis on future research&lt;/h2&gt;
+&lt;p&gt;Another silent failure mode is when your statement does not talk enough about future research plans. Prospective advisors aren&amp;rsquo;t just interested in knowing your background; they are keen to know what you would like to work on if you are offered a spot. It is thus crucial to discuss in detail your future research directions. I have seen many good SOPs devote equal space for past and future research. Just describing past projects does not give your potential advisor enough signal to gauge your research trajectory. Note, however, that noone will hold you to executing on the research problems outlined in your statement. Most people indeed change their research trajectory (at least secondary subject areas) upon admission or as they progress in a research career.&lt;/p&gt;
+&lt;h2 id=&#34;generic-specific-generic-organization&#34;&gt;Generic-Specific-Generic organization&lt;/h2&gt;
+&lt;p&gt;A good design idea for research statements is the generic-specific-generic pattern. Begin with a somewhat broad characterization of your interests (Hypothetical example: &lt;em&gt;My research revolves around thinking how we might leverage advances in deep learning to rethink the geometry processing pipeline ground up &amp;hellip;&lt;/em&gt;). Do not be too broad (Hypothetical example: &lt;em&gt;My research interests include deep learning and computer vision&lt;/em&gt;). Once you have characterized your interests, deep dive into a few specific projects and proposed directions. Towards the end, it&amp;rsquo;s a good idea to present a big-picture overview of your vision and the applications and/or insights your research might unlock.&lt;/p&gt;
+&lt;h2 id=&#34;think-about-the-full-application-package&#34;&gt;Think about the full application package&lt;/h2&gt;
+&lt;p&gt;Contextualize your SOP with respect to your application materials; don&amp;rsquo;t treat it as if it were an independent document. You can use your SOP to talk about things that aren&amp;rsquo;t necessarily on your CV (poor academic performance, career disruptions, etc.). Some universities require personal statements in which case that&amp;rsquo;s the best place for these discussions. Alternatively, if you have too many projects to talk about and too little space in your SOP, consider asking one of your letter writers to discuss a project in greater detail. A common mistake people tend to make is to treat the SOP as a verbose form of their CV. Remember that admissions committees always look at your CV.&lt;/p&gt;
+&lt;h2 id=&#34;do-your-homework&#34;&gt;Do your homework&lt;/h2&gt;
+&lt;p&gt;Please, please, do your homework! A number of statements end up listing faculty that have either retired or aren&amp;rsquo;t taking on students in the application cycle. Ensure that you list faculty who are actively hiring. Another related trend is most SOPs end up listing the top (most sought-after) 3-4 faculty at a school, without actually sensing a research fit. It is important to ensure that you 
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-pick-school/&#34; rel=&#34;noopener&#34;&gt;pick your prospective advisors wisely&lt;/a&gt;. Merely going after the top-k advisors implies stiffer competition and hence lower likelihood in receiving an offer. On an unrelated but serious note, please get all the names of your prospective advisors, labs, and schools right. I still receive so many applications to &lt;strong&gt;MILA&lt;/strong&gt;, even after it has been renamed to &lt;strong&gt;
+&lt;a href=&#34;https://mila.quebec/en&#34; rel=&#34;noopener&#34;&gt;Mila&lt;/a&gt;&lt;/strong&gt; :)&lt;/p&gt;
+&lt;h2 id=&#34;personalize&#34;&gt;Personalize&lt;/h2&gt;
+&lt;p&gt;Personalize your statement to the school and program you are applying for. Many statements merely list 2-3 influential papers per faculty by peeking at their Google Scholar profile. It is important to asses whether your prospective advisors are still actively working in the area. What&amp;rsquo;s more important is to get a sense of your prospective advisor&amp;rsquo;s viewpoints about areas of your interest. One way to do this is to watch recent talks by your potential advisors. Look out for anything that might convey their thoughts on a particular problem. The Q&amp;amp;A during and after the talk might present you with additional insights about your potential advisor&amp;rsquo;s perspective.&lt;/p&gt;
+&lt;h2 id=&#34;hyperlinks-and-other-little-things&#34;&gt;Hyperlinks and other little things&lt;/h2&gt;
+&lt;p&gt;With nearly all SOPs read on digital screens and readers, there are lots of little things you can do to make your SOP more readable. Hyperlink anything that can be hyperlinked &amp;ndash; people/schools/labs/companies you&amp;rsquo;ve worked with, project pages, manuscripts, videos showcasing your work, media coverage; these are all great ways to supplement your statement. If you use colored text, images, or plots, ensure that your palettes are colorblind-friendly.&lt;/p&gt;
+&lt;h2 id=&#34;explicit-structure&#34;&gt;Explicit structure&lt;/h2&gt;
+&lt;p&gt;When people often read two-page-long statements it is hard to remember each point conveyed along the way. It helps if your statement is organized into explicit sections and subsections &amp;ndash; this way the reader can skim and get a sense of all the themes being discussed. (To appreciate the value of &lt;em&gt;structure&lt;/em&gt;, just skim the subheadings of all the above paragraphs. Didn&amp;rsquo;t you think it helped you instantly recreate a gist of the blog post? Readers of your SOP will truly appreciate this gestalt.)&lt;/p&gt;
+&lt;h2 id=&#34;edit-re-edit-re-re-edit&#34;&gt;Edit, re-edit, re-(re-)edit&lt;/h2&gt;
+&lt;p&gt;That&amp;rsquo;s it! The single most important takeaway of this post. As with any piece of scientific writing, take as many passes of the document as you can before you send it out for review or submit it. Get as many of your friends/mentees to review it as possible. It is important that your SOP is readable by people outside of your primary research area. This improves the chances of the SOP appealing to a larger fraction of prospective advisors.&lt;/p&gt;
+&lt;p&gt;Drafting and continuously editing out statements can be daunting and/or stressful. However, remember that the end result is worth the effort. I personally draw immense satisfaction from watching SOPs evolve over time; reminiscing Dorothy Parker&amp;rsquo;s quote &lt;strong&gt;&amp;ldquo;I hate writing, I love having written&amp;rdquo;&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Finally, remember that each school and review committee has different expectations from a statement of purpose. It is best to get each of your statements reviewed by students at the school it is geared towards.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;If you have any thoughts to share about this, drop me a line. Twitter DMs welcome too!&lt;/p&gt;
+&lt;p&gt;Here are a few other articles in this series.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-pick-school/&#34; rel=&#34;noopener&#34;&gt;How to pick your grad school&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-letters/&#34; rel=&#34;noopener&#34;&gt;Demystifying letters of recommendation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Gradschool advice - picking a school</title>
+      <link>/blog/gradschool-pick-school/</link>
+      <pubDate>Sun, 29 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/blog/gradschool-pick-school/</guid>
+      <description>&lt;p&gt;Applying to grad school is easy; picking which programs to apply to is hard.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;TL; DR:&lt;/strong&gt; Pick an advisor, not a school&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: I am no expert in admissions. This series of blog posts is a hastily organized braindump resulting from abundant introspection, and from discussions I&amp;rsquo;ve had over the last few years with some very bright prospective grad students. Much of this is &lt;em&gt;my view of the process&lt;/em&gt; and holds (if at all) only for North American PhD programs in ML/CV/Robotics.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This article is for you if&lt;/strong&gt; you really want to do a PhD and are wondering how to pick programs to apply to. It is also for you if you have received multiple admit offers (congratulations!) and are deciding where to go.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Special mention to 
+&lt;a href=&#34;https://homes.cs.washington.edu/~kusupati/&#34; rel=&#34;noopener&#34;&gt;Aditya Kusupati&lt;/a&gt; and 
+&lt;a href=&#34;https://voletiv.github.io/&#34; rel=&#34;noopener&#34;&gt;Vikram Voleti&lt;/a&gt; for proofreading an earlier version of this article.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;ldquo;So, what schools do you plan to apply to?&amp;rdquo; is a question I frequently ask prospective grad students. Invariably, the answer is &amp;ldquo;top-10 or top-15 schools according to XYZ&amp;rsquo;s ranking scheme&amp;rdquo;. I&amp;rsquo;m not a big fan of this line of thinking &amp;ndash; over the years I&amp;rsquo;ve come to realize that there&amp;rsquo;s deeper factors influencing your grad student life than merely the ranking of your prospective school.&lt;/p&gt;
+&lt;p&gt;I enlist many such factors in this post; I believe prospective grad students might not otherwise consider these when applying. Each factor has its own pros and cons: pick what works best for &lt;strong&gt;you&lt;/strong&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here&amp;rsquo;s an 
+&lt;a href=&#34;https://timdettmers.com/2020/03/10/how-to-pick-your-grad-school/&#34; rel=&#34;noopener&#34;&gt;excellent blog post&lt;/a&gt; by 
+&lt;a href=&#34;https://timdettmers.com/&#34; rel=&#34;noopener&#34;&gt;Tim Dettmers&lt;/a&gt; touching on related themes which prompted me to pen down my thoughts.&lt;/p&gt;
+&lt;p&gt;And, another 
+&lt;a href=&#34;https://latentfactors.blog/2020/12/06/university-rankings-for-phd-applications/&#34; rel=&#34;noopener&#34;&gt;blog post&lt;/a&gt; by 
+&lt;a href=&#34;https://www.cs.cmu.edu/~ddanish/&#34; rel=&#34;noopener&#34;&gt;Danish&lt;/a&gt; and 
+&lt;a href=&#34;http://mgupta1410.github.io/&#34; rel=&#34;noopener&#34;&gt;Mansi&lt;/a&gt; that prompted me to finish this article, having shelved it midway.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;choose-an-advisor-not-a-school&#34;&gt;Choose an advisor, not a school&lt;/h2&gt;
+&lt;p&gt;Personally, the only recommendation I have&amp;mdash;and I cannot stress this enough&amp;mdash;is to &lt;strong&gt;choose an advisor, not a school&lt;/strong&gt;. Your advisor plays a pivotal role in your grad school experience and eventually, your career. A good advisor won&amp;rsquo;t just help you with your research; they will help you broaden your professional network and help you stay focused, healthy, and happy.&lt;/p&gt;
+&lt;p&gt;Spoiler alert: There is no one-size-fits-all when it comes to advisors. Every grad student has a different style of carrying out research, and thrives best when the advisor best matches (or complements) them.&lt;/p&gt;
+&lt;p&gt;Most students look out for the obvious when scouting for advisors: a research area fit. While that is a necessary condition, it is far from being sufficient. An advisor&amp;rsquo;s personal traits, work style, and bandwidth are often more crucial aspects to consider.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Hands-on vs hands-off&lt;/strong&gt;: A &lt;em&gt;hands-on&lt;/em&gt; advisor will closely work with you in formulating ideas, figuring out most of the details, and perhaps even help implement them. Often they will write bulk of the manuscript, tidy up the figures, and help draft rebuttals if needed. This might be extremely helpful (and essential) if you prefer being mentored at close quarters. A &lt;em&gt;hands-off&lt;/em&gt; advisor will expect you to come up with ideas, implement them, write a manuscript up and will often proofread and provide broad advice if restructuring or additional results are needed. While not a good fit for students that prefer working up close, hands-off advisors encourage you to bloom into independent researchers, setting you up to carve out your own research agenda.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Early-career vs post-tenure:&lt;/strong&gt; Usually, &lt;em&gt;early-career&lt;/em&gt; researchers (i.e., postdocs and assistant professors) tend to be more hands-on compared to researchers &lt;em&gt;post-tenure&lt;/em&gt;. Early-career researchers often need to pour in a lot of time and resources to scaffold their group, while post-tenure researchers often have everything in-place (and perhaps support staff to look after administrivia). Post-tenure researchers are well-connected and frequently get invited to talk about work; this might fetch your work visibility. On the flipside, this means their time is stretched thin &amp;ndash; you will often not see them for weeks on end. From an admissions standpoint early-career researchers tend to have more openings, which might increase your likelihood of being hired by their group. Post-tenure researchers may/may not hire grad students each cycle depending on various factors (e.g. going on a sabbatical / other long-term vacations).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adjunct or mixed academic-industry roles:&lt;/strong&gt; Several advisors are riding the AI wave, often splitting time across industry and academic labs or taking on full-time industry roles while maintaining adjunct professor status with the university. Such advisors often have great connections with industry &amp;ndash; this could be an easy ticket for you into your advisor&amp;rsquo;s organization; could also foster collaborative work. Then again, such advisors usually are pressed for time working two jobs. Moreover, collaborating with industrial organizations might impose a few restrictions on what you work on and how you may share it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Other preferences:&lt;/strong&gt; In addition to the above, some advisors may impose additional restrictions such as showing up at the office during pre-specified work hours, the number of holidays you are allowed per year, and whether or not you could go away on summer internships.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Co-advising:&lt;/strong&gt; Many programmes offer you to the flexibility to be co-advised. This might allow you to experience the best of both worlds (e.g. be mentored by early-career and post-tenure researchers) and expose you to multiple groups with a diversity of ideas. Note, however, that you will still need to choose your &lt;em&gt;primary advisor&lt;/em&gt;, and that it might sometimes be difficult to agree on a direction that would maximally excite all your advisors. In general, I wouldn&amp;rsquo;t worry about (not) being co-advised; especially if both your advisors are at the same school or if they often collaborate. In the long run, it may not matter whether or not you have all of them &lt;em&gt;formally&lt;/em&gt; listed on your thesis.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Locked-in advisor vs rotation:&lt;/strong&gt; While some programs have your advisor &lt;em&gt;locked in&lt;/em&gt; when you join the program, others expect you to find a suitable advisor within a year of your admission. Both approaches have their merits. You might realize after joining a program that you and your advisor are a mismatch &amp;ndash; hence it is important to ensure there are alternate advisors available and that they are equally eager to work with you. &lt;em&gt;Hearsay:&lt;/em&gt; Programs that do not explicitly match advisors during admissions ensure that at least 2-3 prospective advisors express interest in a candidate before extending admit offers. Even in such cases, advisors often find that students&amp;rsquo; interests tend to evolve over the course of their PhD.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Above all&amp;mdash;
+&lt;a href=&#34;https://twitter.com/JJRodV/status/1088295825464283136?s=20&#34; rel=&#34;noopener&#34;&gt;as rightly said by Jorge Rodriguez&lt;/a&gt;&amp;ndash; &lt;strong&gt;choose an advisor who is kind&lt;/strong&gt;. Kindness makes up for any deficiencies in the above. Advisors who are kind will keep supporting you no matter what.&lt;/p&gt;
+&lt;h2 id=&#34;spend-time-researching-the-group-your-labmates&#34;&gt;Spend time researching the group, your labmates&lt;/h2&gt;
+&lt;p&gt;Beyond your advisor, your research group and labmates have big impacts on your grad life. Good research groups are inclusive, foster ideas, and offer the opportunity to get meaningful feedback on your work. Spend time researching the structure of the group and analyzing whether you would fancy spending 3-6 years there. I&amp;rsquo;d suggest looking for:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Composition:&lt;/strong&gt; Get a sense of the size of the group (this can vary from a handful to several hundred!). In particular, what are the various levels of researchers in the group (postdocs, senior PhDs, early PhDs, masters, undergrads, interns)? Does the group also have non-technical staff (e.g. office/lab managers to help manage workspace and admins to help with filing reimbursement claims, etc.)? Does the group actively hire part-time visitors/interns to help support research projects? Is the group diverse enough?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative nature:&lt;/strong&gt; Does the group frequently collaborate with other groups at the university? With groups at other universities? If so, are there any frequent collaborators (particularly ones you might fancy working with in future)? A good way to sense this is by sorting through their recent research. Equally important is to get a sense of how the intra-group collaborative structure is (does each student have their own project? do multiple students collaborate on an initiative?). Working at a school that tends to often &lt;em&gt;compete&lt;/em&gt; can be toxic to your PhD &amp;ndash; you could end up spending more time in authorship tussles or idealogical debates as opposed to work.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Networking/Outreach:&lt;/strong&gt; You might also want to see if the group offers networking and outreach opportunities beyond publishing and presenting research. For instance, does the group actively organize events (conferences/workshops)? Does the group have a frequent set of visitors from academia/industry to give talks and network?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Student support:&lt;/strong&gt; Does the group/school run initiatives to keep grad students &lt;em&gt;happy&lt;/em&gt;? Are there support systems to identify and deal with mental-health issues (e.g. mental-health first-aid)? Are there internal groups that discuss more than just resarch (diversity and inclusion problems, buddy programs for newly admitted students, other fun student activities)?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;nature-of-funding-expected-research-directions&#34;&gt;Nature of funding; expected research directions&lt;/h2&gt;
+&lt;p&gt;Most schools guarantee funding to PhD students at the time of admission. Your advisor(s) are often responsible for having obtaining the requisite funding before extending you an offer.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Source of funding:&lt;/strong&gt; The source of funding may play a role in determining the nature of your research. If you are being funded by a specific project with fixed deliverables, it is possible that your research agenda/role is &lt;em&gt;locked in&lt;/em&gt; at the time of your admission. However many project proposals are open-ended to allow for the student to scope their own research problems. At the other end of the spectrum are labs with &lt;em&gt;no-strings-attached&lt;/em&gt; funding, which offers you complete control over what you might want to work on. This is often the case when you are funded by graduate fellowships. It is hard to get a sense of your source of funding before you join a university, but expected research directions are a must-discuss aspect when you visit or talk to prospective advisors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extent of funding:&lt;/strong&gt; Some positions might only offer partial funding with the understanding that you will &lt;em&gt;earn&lt;/em&gt; the rest of your funding via TAships or other admin work. Furthermore, some of these PhD positions might also have fixed durations after which your funding will expire. Make sure you know the extent to which your studies are funded.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resources:&lt;/strong&gt; Does the school have an abundance of resources to support you? E.g. if you&amp;rsquo;re doing ML, you probably want to go to a school/group that has an abundance of GPU compute. This will ensure that resource constraints won&amp;rsquo;t let you compromise on your research &amp;ndash; not being able to finish up a submission because you didn&amp;rsquo;t get a GPU job allocation can be frustrating. Likewise, if you aspire to work on robots, go to a lab with lots of them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Perks:&lt;/strong&gt; It might also be important to know if there are any &lt;em&gt;perks&lt;/em&gt; to your funding; for instance 
+&lt;a href=&#34;http://liampaull.ca&#34; rel=&#34;noopener&#34;&gt;my fantastic advisor&lt;/a&gt; sponsored an all-expenses-paid trip to a top-notch conference during the first year of my PhD just for me to get a feel for the venue and the research landscape.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;quality-of-life&#34;&gt;Quality of life&lt;/h2&gt;
+&lt;p&gt;And then there are other &lt;em&gt;quality of life&lt;/em&gt; choices such as the ranking of the school, activities that the school and/or the geographic location offers you, and the impact on personal life.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Brand/ranking:&lt;/strong&gt; I have come to believe&amp;mdash;over the years&amp;mdash;that the ranking of the school does not significantly impact your eventual career trajectory. As rightly pointed out by 
+&lt;a href=&#34;https://www.cs.cmu.edu/~ddanish/&#34; rel=&#34;noopener&#34;&gt;Danish&lt;/a&gt; and 
+&lt;a href=&#34;http://mgupta1410.github.io/&#34; rel=&#34;noopener&#34;&gt;Mansi&lt;/a&gt; in 
+&lt;a href=&#34;https://latentfactors.blog/2020/12/06/university-rankings-for-phd-applications/&#34; rel=&#34;noopener&#34;&gt;this blog post&lt;/a&gt;, &lt;strong&gt;&amp;ldquo;you are the driver of your PhD&amp;rdquo;&lt;/strong&gt;. All the above advisor/group factors applied, &lt;strong&gt;your work speaks for you!&lt;/strong&gt; In some cases though, the &lt;em&gt;brand&lt;/em&gt; and/or &lt;em&gt;ranking&lt;/em&gt; of the school/group might help you. Particularly in communities where credentials are overvalued (such as when founding companies), being in a location that offers you geographical and/or networking advantages serves as a launchpad.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Geographic factors:&lt;/strong&gt; You might also want to consider geographic factors such as the distance from your home country/city, and the overall &lt;em&gt;likeability&lt;/em&gt; of the place.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;n-body problems:&lt;/strong&gt; Occasionally, prospective students might need to solve n-body problems (i.e., figure things out with their partner/immediate family) &amp;ndash; an important personal life aspect often underlooked. E.g. if you&amp;rsquo;re in a long-distance relationship, or you have close family that needs attending to, you might want to choose a school/advisor that offers you the flexibility to work remotely as often as needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stress:&lt;/strong&gt; A lot of the above factors when added up with the weight of your graduate studies can impose a lot of stress. Avoid all avoidable stress. Pick schools/groups/advisors that will help you maintain a healthy work-life balance.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;a-word-of-caution&#34;&gt;A word of caution&lt;/h2&gt;
+&lt;p&gt;It&amp;rsquo;s important to note that grad school life is more than just publishing research; you often find yourself immersed in the game of publish-or-perish and your overall ambitions/goals become muddled. Pick a program that allows you to do what you&amp;rsquo;d really enjoy doing all the while keeping you physically and mentally healty &amp;ndash; and you&amp;rsquo;ll reap rewards in the long run. I hope this article has poked you to think about a few aspects of your prospective grad school life that you haven&amp;rsquo;t already. Drop me a line (Twitter DMs/mentions welcome) if you have thoughts to share.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://timdettmers.com/&#34; rel=&#34;noopener&#34;&gt;Tim Dettmers&amp;rsquo;&lt;/a&gt; excellent blogpost titled &amp;ldquo;
+&lt;a href=&#34;https://timdettmers.com/2020/03/10/how-to-pick-your-grad-school/&#34; rel=&#34;noopener&#34;&gt;How to Pick Your Grad School&lt;/a&gt;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://twitter.com/zacharylipton/status/1327508765525028865?s=20&#34; rel=&#34;noopener&#34;&gt;This Tweet&lt;/a&gt; by 
+&lt;a href=&#34;http://zacklipton.com/&#34; rel=&#34;noopener&#34;&gt;Zachary Lipton&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.cs.cmu.edu/~ddanish/&#34; rel=&#34;noopener&#34;&gt;Danish&lt;/a&gt; and 
+&lt;a href=&#34;http://mgupta1410.github.io/&#34; rel=&#34;noopener&#34;&gt;Mansi&lt;/a&gt;&amp;lsquo;s blog post titled &amp;ldquo;
+&lt;a href=&#34;https://latentfactors.blog/2020/12/06/university-rankings-for-phd-applications/&#34; rel=&#34;noopener&#34;&gt;University Rankings for PhD Applications&lt;/a&gt;&amp;rdquo; (this motivated me to work on my unfinished article)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Here are a few other articles in this series.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-sop/&#34; rel=&#34;noopener&#34;&gt;Writing a statement of purpose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-letters/&#34; rel=&#34;noopener&#34;&gt;Demystifying letters of recommendation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Series of posts for PhD applicants</title>
+      <link>/blog/gradschool-hello/</link>
+      <pubDate>Mon, 14 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/blog/gradschool-hello/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s that time of the year again: grad school applications season! Applying to grad school is a long, stressful process for many. There&amp;rsquo;s several decisions to make: choice of schools and/or advisors, scouting for letter writers, drafting a great research statement, taking language tests (Oh wait! Many schools 
+&lt;a href=&#34;https://twitter.com/paul_pearce/status/1304171346008707074?s=20&#34; rel=&#34;noopener&#34;&gt;don&amp;rsquo;t require these&lt;/a&gt; beginning this cycle).&lt;/p&gt;
+&lt;p&gt;Over the years, I&amp;rsquo;ve helped people I know with various facets of their applications; most commonly, reviewing research statements, expanding their wishlist of schools/advisors, and sometimes merely talking them through the application process. This has often resulted in several interesting conversations about grad school life, how-tos, and research. Typically, most such conversations happened in private/limited-access channels.&lt;/p&gt;
+&lt;p&gt;To share some of my perspectives with the broader set of people that are applying this cycle, I have written a series of posts each discussing a different facet of grad school applications.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-pick-school/&#34; rel=&#34;noopener&#34;&gt;How to pick your grad school&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-sop/&#34; rel=&#34;noopener&#34;&gt;Writing a statement of purpose&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://krrish94.github.io/blog/gradschool-letters/&#34; rel=&#34;noopener&#34;&gt;Demystifying letters of recommendation&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

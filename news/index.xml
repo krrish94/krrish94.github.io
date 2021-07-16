@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News | Krishna Murthy</title>
+    <link>/news/</link>
+      <atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
+    <description>News</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 Krishna Murthy</copyright>
+    <image>
+      <url>/img/krishna.jpg</url>
+      <title>News</title>
+      <link>/news/</link>
+    </image>
+    
+    <item>
+      <title>Awarded a Google PhD fellowship (declined)</title>
+      <link>/news/2021-01-22-google-fellowship/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/news/2021-01-22-google-fellowship/</guid>
+      <description>&lt;p&gt;Extremely honored to be awarded a 
+&lt;a href=&#34;https://research.google/outreach/phd-fellowship/&#34; rel=&#34;noopener&#34;&gt;Google PhD fellowship&lt;/a&gt; for &amp;ldquo;Machine Perception, Speech Technology, and Computer Vision&amp;rdquo; for 2021. Thank you Google, for this coveted recognition!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ICLR workshop on rethinking scientific paper formats</title>
+      <link>/news/2020-12-21-rethinkingmlpapers-workshop/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/news/2020-12-21-rethinkingmlpapers-workshop/</guid>
+      <description>&lt;p&gt;We are organizing a (virtual) workshop at 
+&lt;a href=&#34;https://iclr.cc&#34; rel=&#34;noopener&#34;&gt;ICLR 2021&lt;/a&gt;: &lt;strong&gt;Beyond the research paper - rethinking how we share scientific understanding in ML research&lt;/strong&gt;, to reflect on formats for scientific publishing geared towards accessibility, pedagogy, and reproducibility. See 
+&lt;a href=&#34;https://rethinkingmlpapers.github.io&#34; rel=&#34;noopener&#34;&gt;https://rethinkingmlpapers.github.io&lt;/a&gt; for more details!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Awarded an NVIDIA graduate fellowship</title>
+      <link>/news/2020-12-01-nvidia-fellowship/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/news/2020-12-01-nvidia-fellowship/</guid>
+      <description>&lt;p&gt;Honored and excited to have received an 
+&lt;a href=&#34;https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/&#34; rel=&#34;noopener&#34;&gt;NVIDIA graduate fellowship&lt;/a&gt; for 2021-22.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gradslam - library available!</title>
+      <link>/news/2020-11-10-gradslam-release/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/news/2020-11-10-gradslam-release/</guid>
+      <description>&lt;p&gt;gradslam is available as an open-source pytorch framework 
+&lt;a href=&#34;https://github.com/gradslam/gradslam&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Organizing a robot learning seminar series</title>
+      <link>/news/2020-robotlearning-seminar/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/news/2020-robotlearning-seminar/</guid>
+      <description>&lt;p&gt;We are organizing a (virtual) seminar series on robot learning at Mila and the Robotics and Embodied AI Lab. Visit our 
+&lt;a href=&#34;https://montrealrobotics.ca/robotlearningseries&#34; rel=&#34;noopener&#34;&gt;seminar page&lt;/a&gt; for more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Neurips workshop on differentiable vision, graphics, physics</title>
+      <link>/news/2020-neurips-workshop/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/news/2020-neurips-workshop/</guid>
+      <description>&lt;p&gt;We are organizing a (virtual) workshop at Neurips 2020 on &lt;strong&gt;differentiable computer vision, graphics, and physics in ML&lt;/strong&gt;, with a star-studded speaker lineup! Visit our 
+&lt;a href=&#34;https://montrealrobotics.ca/diffcvgp/&#34; rel=&#34;noopener&#34;&gt;workshop webpage&lt;/a&gt; for more.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Selected to the &#34;RSS pioneers&#34; 2020 cohort</title>
+      <link>/news/rsspioneers/</link>
+      <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/news/rsspioneers/</guid>
+      <description>&lt;p&gt;Honoured to be part of the &lt;strong&gt;RSS pioneers&lt;/strong&gt; 
+&lt;a href=&#34;https://sites.google.com/view/rsspioneers2020/home&#34; rel=&#34;noopener&#34;&gt;cohort of 2020 announced&lt;/a&gt;, with 27 other amazing grad students and postdocs. Check out a 
+&lt;a href=&#34;https://youtu.be/bbEqwyVtJXU&#34; rel=&#34;noopener&#34;&gt;short video abstract&lt;/a&gt; of my near-term research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maplite awarded &#34;Best Robotics and Automation Letters paper of 2019&#34;</title>
+      <link>/news/bestpaper-maplite/</link>
+      <pubDate>Fri, 05 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/news/bestpaper-maplite/</guid>
+      <description>&lt;p&gt;Honoured to be announced &lt;strong&gt;best paper of RAL, 2019&lt;/strong&gt;, at the awards ceremony at ICRA 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>gradSLAM is accepted to ICRA 2020</title>
+      <link>/news/gradslam/</link>
+      <pubDate>Wed, 12 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/news/gradslam/</guid>
+      <description>&lt;p&gt;Our paper on fully differentiable dense SLAM will be (virtually) presented at 
+&lt;a href=&#34;https://www.icra2020.org/&#34; rel=&#34;noopener&#34;&gt;ICRA 2020&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MonoLayout presented at WACV 2020.</title>
+      <link>/news/monolayout/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>/news/monolayout/</guid>
+      <description>&lt;p&gt;Our paper &lt;strong&gt;Monolayout&lt;/strong&gt;, tackling &lt;em&gt;amodal scene layout estimation from a single image&lt;/em&gt;, was presented at 
+&lt;a href=&#34;http://wacv20.wacv.net/&#34; rel=&#34;noopener&#34;&gt;WACV 2020&lt;/a&gt;. For more details, visit our 
+&lt;a href=&#34;https://github.com/hbutsuak95/monolayout&#34; rel=&#34;noopener&#34;&gt;GitHub repo&lt;/a&gt;, or watch this 
+&lt;a href=&#34;https://www.youtube.com/watch?v=HcroGyo6yRQ&#34; rel=&#34;noopener&#34;&gt;video abstract&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maplite accepted to RAL; will be presented at ICRA 2020.</title>
+      <link>/news/maplite/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/news/maplite/</guid>
+      <description>&lt;p&gt;Our paper &lt;strong&gt;MapLite&lt;/strong&gt;, tackling autonomous rural intersection navigation without a detailed prior map, is accepted for publication in &lt;em&gt;Robotics and Automation Letters&lt;/em&gt;. It will also be presented at the &lt;em&gt;International Conference on Robotics and Automation&lt;/em&gt; (ICRA) 2020.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Excited to launch Kaolin- a 3D deep learning library for PyTorch users</title>
+      <link>/news/kaolin/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>/news/kaolin/</guid>
+      <description>&lt;p&gt;During a summer internship at NVIDIA, Toronto, I worked with 
+&lt;a href=&#34;http://www.cs.toronto.edu/~fidler&#34; rel=&#34;noopener&#34;&gt;Prof. Sanja Fidler&amp;rsquo;s&lt;/a&gt; group to build 
+&lt;a href=&#34;https://github.com/NVIDIAGameWorks/kaolin/&#34; rel=&#34;noopener&#34;&gt;Kaolin&lt;/a&gt;: a 3D deep learning framework for PyTorch users.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
