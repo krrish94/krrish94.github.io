@@ -78,7 +78,7 @@ I'm fortunate to actively collaborate with [Florian Shkurti](https://www.cs.toro
 
 My research is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/).
 
-I am currently away on a research internship with [Dieter Fox](https://homes.cs.washington.edu/~fox/) at [NVIDIA](https://www.nvidia.com/en-us/research/), also working closely with [Animesh Garg](https://animesh.garg.tech/) and [Fabio Ramos](https://fabioramos.github.io/Home.html).
+I also spent the summer of 2021 working with [Animesh Garg](https://animesh.garg.tech/), [Fabio Ramos](https://fabioramos.github.io/Home.html), and [Dieter Fox](https://homes.cs.washington.edu/~fox/) at [NVIDIA](https://www.nvidia.com/en-us/research/).
 
 > ##### Pro-bono office hours
 > I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link).
