@@ -19,7 +19,7 @@
 
 <!-- About widget -->
 <div class="row">
-  <div class="col-12 col-lg-4">
+  <div class="col-12 col-sm-4">
     <div id="profile">
 
       {{ if site.Params.avatar.gravatar }}
@@ -67,7 +67,7 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8">
+  <div class="col-12 col-sm-6">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
@@ -106,4 +106,10 @@
 
     </div>
   </div>
+
+  <div class="col-12 col-sm-2">
+    <a href="https://twitter.com/_krishna_murthy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_krishna_murthy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-lang="en" data-height="480" data-width="240" href="https://twitter.com/_krishna_murthy?ref_src=twsrc%5Etfw">Tweets by _krishna_murthy</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
 </div>
