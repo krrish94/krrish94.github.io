@@ -8,6 +8,7 @@
   border: 1px solid rgba(0,0,0,.09);
   border-radius: 3px;
   margin-top: 20px;
+  margin-left: -240px;
   padding: 15px 20px 15px 20px;
 }
 
@@ -115,4 +116,19 @@
 
 .card:hover .card-image.hover-overlay:after {
   opacity: 0.6;
+}
+
+.card table{
+  border: none;
+  background-color: transparent;
+}
+
+.card tr{
+  border: none;
+  background-color: transparent;
+}
+
+.card td{
+  border: none;
+  background-color: transparent;
 }

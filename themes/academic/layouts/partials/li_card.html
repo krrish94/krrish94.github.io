@@ -37,32 +37,47 @@
     {{ end }}
   </div>
   {{ else }}
-    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+    <!-- {{ partial "page_metadata" (dict "page" $item "is_list" 1) }} -->
   {{ end }}
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
   {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
-  <a href="{{ $item.RelPermalink }}">
-      <img src="{{ $image.RelPermalink }}" class="article-banner" alt="">
-  </a>
+  {{ $image := $image.Resize "200x" }}
+  <table class="table table-borderless">
+    <tbody>
+      <tr>
+        <td style="text-align: left; vertical-align: middle; background:transparent;">
+          <a href="{{ $item.RelPermalink }}"> <img src="{{ $image.RelPermalink }}" alt=""> </a>
+        </td>
+        <td style="text-align: left; vertical-align: middle; background:transparent;">
+          <a href="{{ $item.RelPermalink }}"> <h5> {{ $item.Title }} </h5> </a>
+
+          {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+          
+          {{ with $summary }}
+          <div class="article-style">
+            <p>{{.}}</p>
+          </div>
+          {{ end }}
+
+          {{ if $show_buttons }}
+          <div class="btn-links">
+            {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+          </div>
+          {{ end }}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- <a href="{{ $item.RelPermalink }}">
+      <img src="{{ $image.RelPermalink }}" alt=""> <h5> {{ $item.Title }} </h5>
+  </a> -->
   {{end}}
 
-  <h3 class="article-title mb-1 mt-3">
+  <!-- <h3 class="article-title mb-1 mt-3">
     <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
-  </h3>
-
-  {{ with $summary }}
-  <div class="article-style">
-    <p>{{.}}</p>
-  </div>
-  {{ end }}
-
-  {{ if $show_buttons }}
-  <div class="btn-links">
-    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-  </div>
-  {{ end }}
+  </h3> -->
 
 </div>
