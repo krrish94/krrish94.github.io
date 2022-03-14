@@ -72,13 +72,14 @@ user_groups:
 - Visitors
 ---
 
-I am a PhD candidate at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/). My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. To achieve this, my work intertwines our _understanding of the world_ (physics, robotics, vision, graphics) with deep learning machinery.
+I am an incoming postdoc at [MIT CSAIL](https://www.csail.mit.edu/), working closely with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I obtained my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
 
-I am an incoming postdoc at [MIT CSAIL](https://www.csail.mit.edu/), beginning March 2022, working closely with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/).
+My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. To achieve this, my work intertwines our _understanding of the world_ (physics, robotics, vision, graphics) with deep learning machinery. My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
+
 
 <!-- I'm fortunate to have closely worked with [Florian Shkurti](https://www.cs.toronto.edu/~florian/), [Derek Nowrouzezahrai](http://www.cim.mcgill.ca/~derek/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/), and other excellent researchers. -->
 
-My PhD is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/). An early-preview of [my PhD dissertation is available here](https://drive.google.com/file/d/1-5YlECag4PrdQCgGirPThZOCOY7FiyDm/view?usp=sharing).
+<!-- My PhD is supported by an [**NVIDIA graduate fellowship**](https://blogs.nvidia.com/blog/2020/12/04/graduate-fellowships-gpu-computing-research/). An early-preview of [my PhD dissertation is available here](https://drive.google.com/file/d/1-5YlECag4PrdQCgGirPThZOCOY7FiyDm/view?usp=sharing). -->
 
 
 <!-- > ##### Pro-bono office hours
