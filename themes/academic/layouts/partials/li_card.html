@@ -44,7 +44,7 @@
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
   {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
-  {{ $image := $image.Resize "200x" }}
+  {{ $image := $image.Resize "500x" }}
   <table class="table table-borderless">
     <tbody>
       <tr>

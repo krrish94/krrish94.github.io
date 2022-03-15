@@ -72,7 +72,7 @@ user_groups:
 - Visitors
 ---
 
-I am an incoming postdoc at [MIT CSAIL](https://www.csail.mit.edu/), working closely with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I obtained my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
+I am an incoming postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I obtained my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
 
 My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. To achieve this, my work intertwines our _understanding of the world_ (physics, robotics, vision, graphics) with deep learning machinery. My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
 
@@ -85,6 +85,21 @@ My [research](#publications) vision is to enable embodied agents to perceive, re
 <!-- > ##### Pro-bono office hours
 > I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please [fill out this form](https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link). -->
 
+
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collapsibleButton" role="button" aria-expanded="false" aria-controls="collapsibleButton">Pro-bono office hours</a>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="collapsibleButton">
+      <div class="card card-body">
+        I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please fill out this form <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link">https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--
 <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="probono">
@@ -102,3 +117,4 @@ My [research](#publications) vision is to enable embodied agents to perceive, re
     </div>
   </div>
 </div>
+-->
