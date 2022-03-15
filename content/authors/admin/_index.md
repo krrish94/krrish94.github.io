@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-- name: Mila
-  url: "https://mila.quebec/en"
+- name: MIT CSAIL
+  url: "https://csail.mit.edu"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research blends robotics, computer vision, graphics, and physics with deep learning.
@@ -72,7 +72,7 @@ user_groups:
 - Visitors
 ---
 
-I am an incoming postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I earned my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
+I am a postdoctoral associate at [MIT CSAIL](https://www.csail.mit.edu/) with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I earned my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
 
 My [research](#publications) vision is to enable embodied agents to perceive, reason, and act intelligently. To achieve this, my work intertwines our _understanding of the world_ (physics, robotics, vision, graphics) with deep learning machinery. My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
 
