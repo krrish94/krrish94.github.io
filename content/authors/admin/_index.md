@@ -74,7 +74,7 @@ user_groups:
 
 I am a postdoctoral associate at [MIT CSAIL](https://www.csail.mit.edu/) with [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html) and [Antonio Torralba](https://web.mit.edu/torralba/www/). I earned my PhD ([see thesis](files/Jatavallabhula_Krishna_Murthy_2022_these.pdf)) at [Mila](https://mila.quebec/en/) and the [Robotics and Embodied AI Lab](http://montrealrobotics.ca/), advised by [Liam Paull](http://liampaull.ca/).
 
-My [research](#publications) centers around building **world models** --- representations that encapsulate various real-world phenomemon that are essential to designing intelligent systems. In doing so, my research spans several areas including robotics, computer vision, computer graphics, and intertwines our _understanding of the world_ with deep learning.
+My [research](#publications) centers around building **invertible world models** --- representations that encode how the world works. These world models enable the design of intelligent systems that perceive, reason, and act. My research spans several areas including robotics, computer vision, computer graphics; and intertwines our _understanding of the world_ with deep learning.
 
 My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
 
@@ -89,13 +89,19 @@ My work has been recognized with PhD fellowship awards from NVIDIA and Google, a
 
 
 <p>
-  <a class="btn btn-primary" data-toggle="collapse" href="#collapsibleButton" role="button" aria-expanded="false" aria-controls="collapsibleButton">Pro-bono office hours</a>
+  <a class="btn btn-primary" data-toggle="collapse" href="#probonoButton" role="button" aria-expanded="false" aria-controls="collapsibleButton">Pro-bono office hours</a>
+  <a class="btn btn-primary" data-toggle="collapse" href="#collabButton" role="button" aria-expanded="false" aria-controls="collapsibleButton">Collaborate</a>
 </p>
 <div class="row">
   <div class="col">
-    <div class="collapse multi-collapse" id="collapsibleButton">
+    <div class="collapse multi-collapse" id="probonoButton">
       <div class="card card-body">
         I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please fill out this form <a target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link">https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform?usp=sf_link</a>
+      </div>
+    </div>
+    <div class="collapse multi-collapse" id="collabButton">
+      <div class="card card-body">
+        I am always on the lookout for collaborators; particularly those from groups underrepresented in research. If this is you, please send me an email.
       </div>
     </div>
   </div>
