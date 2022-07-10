@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<!-- about.html -->
+      <div class="post">
+        <header class="post-header">
+          <h1 class="post-title">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+        </header>
+
+        <article>
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+            <tbody>
+              <tr>
+                <td width="33%" valign="top">
+                  <img src="{{ page.profile_pic | prepend: 'assets/img/' }}" width="100%" style="border-radius:15px" alt="A photograph of Krishna">
+                  <p align="center">
+                    <a href="mailto:jkrishna@mit.edu">Email</a> | 
+                    <a href="{{ page.google_scholar }}">Google Scholar</a> | 
+                    <a href="{{ page.cv | prepend: 'assets/pdf/' }}">CV</a>
+                    <a href="{{ page.linkedin }}">LinkedIn </a> | 
+                    <a href="{{ page.thesis | prepend: 'assets/pdf/' }}">PhD Thesis</a> | 
+                    <a href="{{ page.github }}">GitHub</a>
+                  </p>
+                  <p align="center">
+                    <a href="https://twitter.com/_krishna_murthy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_krishna_murthy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </p>
+                </td>
+                <td width="67%" valign="top" align="justify">
+                  <div class="clearfix">
+                    {{ content }}
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          {% if page.news -%}
+          <!-- News -->
+          {%- include news.html %}
+          {%- endif %}
+          {% if page.selected_papers -%}
+            <!-- Selected papers -->
+            {%- include selected_papers.html %}
+          {%- endif %}
+          {%- if page.social %}
+          <!-- Social -->
+          <div class="social">
+            <div class="contact-icons">
+            {% include social.html %}
+            </div>
+
+            <div class="contact-note">
+              {{ site.contact_note }}
+            </div>
+            
+          </div>
+          {%- endif %}
+        </article>
+
+</div>
