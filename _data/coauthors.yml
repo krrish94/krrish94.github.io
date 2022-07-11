@@ -1,14 +1,134 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Paull":
+  - firstname: ["Liam"]
+    url: https://liampaull.ca/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"K":
+  - firstname: ["Madhava", "Madhava Krishna"]
+    url: https://robotics.iiit.ac.in/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Shkurti":
+  - firstname: ["Florian", "Florian Shkurti"]
+    url: http://www.cs.toronto.edu/~florian/
+
+"Nowrouzezahrai":
+  - firstname: ["Derek", "Derek Nowrouzezahrai"]
+    url: https://www.cim.mcgill.ca/~derek/
+
+"Fidler":
+  - firstname: ["Sanja", "Sanja Fidler"]
+    url: https://www.cs.toronto.edu/~fidler/
+
+"Bohg":
+  - firstname: ["Jeannette"]
+    url: https://web.stanford.edu/~bohg/
+
+"Antonova":
+  - firstname: ["Rika"]
+    url: https://contactrika.github.io/
+
+"Yang":
+  - firstname: ["Jingyun"]
+    url: https://yjy0625.github.io/
+
+"Bhatt":
+  - firstname: ["Dhaivat"]
+    url: https://dhaivat1729.github.io/
+
+"Mani":
+  - firstname: ["Kaustubh"]
+    url: https://hbutsuak95.github.io/
+
+"Bansal":
+  - firstname: ["Dishank"]
+    url: https://dishank-b.github.io/
+
+"Sridhar":
+  - firstname: ["Srinath"]
+    url: https://cs.brown.edu/people/ssrinath
+
+"Sajnani":
+  - firstname: ["Rahul"]
+    url: https://scholar.google.com/citations?user=HAtfBjoAAAAJ&hl=en
+
+"Agia":
+  - firstname: ["Chris"]
+    url: https://www.chrisagia.com/
+
+"Vineet":
+  - firstname: ["Vibhav"]
+    url: http://vibhavvineet.info/
+
+"Mukadam":
+  - firstname: ["Mustafa"]
+    url: https://www.mustafamukadam.com/
+
+"Macklin":
+  - firstname: ["Miles"]
+    url: http://blog.mmacklin.com/about/
+
+"Golemo":
+  - firstname: ["Florian"]
+    url: https://fgolemo.github.io/
+
+"Voleti":
+  - firstname: ["Vikram"]
+    url: https://voletiv.github.io/
+
+"Considine":
+  - firstname: ["Breandan"]
+    url: http://breandan.net/
+
+"Petrini":
+  - firstname: ["Linda"]
+    url: https://lindapetrini.github.io/
+
+"Xie":
+  - firstname: ["Kevin"]
+    url: https://kevincxie.github.io/
+
+"Weiss":
+  - firstname: ["Martin"]
+    url: http://martincsweiss.com/
+
+"Erleben":
+  - firstname: ["Kenny"]
+    url: https://iphys.wordpress.com/
+
+"Iyer":
+  - firstname: ["Ganesh"]
+    url: https://epiception.github.io/
+
+"Shankar":
+  - firstname: ["Sai"]
+    url: https://saishankarn.github.io/
+
+"Ansari":
+  - firstname: ["Junaid Ahmed"]
+    url: https://junaidcs032.github.io/
+
+"Gottipati":
+  - firstname: ["Sai Krishna"]
+    url: https://saikrishna-1996.github.io/
+
+"Smith":
+  - firstname: ["Edward"]
+    url: https://edwardsmith1884.github.io/
+
+"Ram":
+  - firstname: ["Karnik"]
+    url: https://karnikram.info/
+
+"Gupta":
+  - firstname: ["Gunshi"]
+    url: https://gunshigupta.netlify.app/
+
+"Parkhiya":
+  - firstname: ["Parv"]
+    url: https://parvparkhiya.github.io/
+
+"Bhowmick":
+  - firstname: ["Brojeshwar"]
+    url: https://sites.google.com/view/brojeshwar/home
 
 "Bach": 
   - firstname: ["Johann Sebastian", "J. S."]
