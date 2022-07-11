@@ -18,12 +18,12 @@ layout: default
                 <td width="33%" valign="top">
                   <img src="{{ page.profile_pic | prepend: 'assets/img/' }}" width="100%" style="border-radius:15px" alt="A photograph of Krishna">
                   <p align="center">
-                    <a href="mailto:jkrishna@mit.edu">Email</a> | 
-                    <a href="{{ page.google_scholar }}">Google Scholar</a> | 
-                    <a href="{{ page.cv | prepend: 'assets/pdf/' }}">CV</a>
-                    <a href="{{ page.linkedin }}">LinkedIn </a> | 
-                    <a href="{{ page.thesis | prepend: 'assets/pdf/' }}">PhD Thesis</a> | 
-                    <a href="{{ page.github }}">GitHub</a>
+                    <b><a href="mailto:jkrishna@mit.edu">Email</a></b> | 
+                    <b><a href="{{ page.google_scholar }}">Google Scholar</a></b> | 
+                    <b><a href="{{ page.cv | prepend: 'assets/pdf/' }}">CV</a></b>
+                    <b><a href="{{ page.linkedin }}">LinkedIn </a></b> | 
+                    <b><a href="{{ page.thesis | prepend: 'assets/pdf/' }}">PhD Thesis</a></b> | 
+                    <b><a href="{{ page.github }}">GitHub</a></b>
                   </p>
                   <p align="center">
                     <a href="https://twitter.com/_krishna_murthy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_krishna_murthy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -37,6 +37,31 @@ layout: default
               </tr>
             </tbody>
           </table>
+
+          <p align="center">
+            <a class="btn btn-outline-secondary" data-toggle="collapse" href="#probonoButton" role="button" aria-expanded="false" aria-controls="collapsibleButton"><b>Office hours</b></a>
+            <a class="btn btn-outline-secondary" data-toggle="collapse" href="#collabButton" role="button" aria-expanded="false" aria-controls="collapsibleButton"><b>Collaborate</b></a>
+            <a class="btn btn-outline-secondary" data-toggle="collapse" href="#accessibilityButton" role="button" aria-expanded="false" aria-controls="collapsibleButton"><b>Accessibility</b></a>
+          </p>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="probonoButton">
+                <div class="card card-body" style="display: inline-block;">
+                  I commit 2 hours a week to mentor underrepresented groups in robotics, computer vision, and machine learning. If this is you, and you'd like to discuss research, grad school apps/advice, or anything else, please fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSc5F-ZuxaeJn6W4oQKDvuItXE7OuV2s0s0vZXE1QB5EzizbwQ/viewform">this form</a>.
+                </div>
+              </div>
+              <div class="collapse multi-collapse" id="collabButton">
+                <div class="card card-body" style="display: inline-block;">
+                  I am always on the lookout for collaborators; particularly those from groups underrepresented in research. If this is you, please send me an email.
+                </div>
+              </div>
+              <div class="collapse multi-collapse" id="accessibilityButton">
+                <div class="card card-body" style="display: inline-block;">
+                  I am committed to making this website as accessible as possible to everyone visiting it. If you would like to suggest/request any accessibility-related modifications, I would really appreciate a quick note.
+                </div>
+              </div>
+            </div>
+          </div>
 
           {% if page.news -%}
           <!-- News -->

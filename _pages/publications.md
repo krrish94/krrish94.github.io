@@ -9,17 +9,17 @@ nav_order: 0
 ---
 
 
-For a list of my *featured* publications, please see [here](#)
+For a list of my *featured* publications, please scroll down the <a href="/">home</a> page. This publication page lists all of my major publications. For an exhaustive list that includes workshop papers, please see my CV.
+
+<sup>* indicates that authors contributed equally</sup>
 
 <!-- _pages/publications.md -->
 <div class="publications">
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
-  <br>
-  <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0"> -->
-    {% bibliography -f papers -q @*[year={{y}}]* %}
-  <!-- </table> -->
+  <br><br>
+  {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
