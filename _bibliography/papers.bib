@@ -1,12 +1,57 @@
 ---
 ---
 
+@inproceedings{conceptfusion,
+  bibtex_show={true},
+  title={ConceptFusion: Open-set Multimodal 3D Mapping},
+  author = {Jatavallabhula, {Krishna Murthy} and Kuwajerwala, Alihusein and Gu, Qiao and Omama, Mohd and Chen, Tao and Li, Shuang and Iyer, Ganesh and Saryazdi, Soroush and Keetha, Nikhil and Tewari, Ayush and Tenenbaum, {Joshua B.} and {de Melo}, {Celso Miguel} and Krishna, Madhava and Paull, Liam and Shkurti, Florian and Torralba, Antonio},
+  year={2023},
+  booktitle={preprint},
+  preview={conceptfusion.gif},
+  alt={A gif depicting the types of multimodal queries (text, image, audio, click) supported by ConceptFusion.},
+  abstract={Building 3D maps of the environment is central to robot navigation, planning, and interaction with objects in a scene. Most existing approaches that integrate semantic concepts with 3D maps largely remain confined to the closed-set setting: they can only reason bout a finite set of concepts, pre-defined at training time. Further, these maps can only be queried using class labels, or in recent work, using text prompts.
+  We address both these issues with ConceptFusion, a scene representation that is: (i) fundamentally open-set, enabling reasoning beyond a closed set of concepts (ii) inherently multi-modal, enabling a diverse range of possible queries to the 3D map, from language, to images, to audio, to 3D geometry, all working in concert. ConceptFusion leverages the open-set capabilities of today’s foundation models pre-trained on internet-scale data to reason about concepts across modalities such as natural language, images, and audio. We demonstrate that pixel-aligned open-set features can be fused into 3D maps via traditional SLAM and multi-view fusion approaches. This enables effective zero-shot spatial reasoning, not needing any additional training or finetuning, and retains long-tailed concepts better than supervised approaches, outperforming them by more than 40% margin on 3D IoU. We extensively evaluate ConceptFusion on a number of real-world datasets, simulated home environments, a real-world tabletop manipulation task, and an autonomous driving platform. We showcase new avenues for blending foundation models with 3D open-set multimodal mapping.},
+  contrib={I conceived the idea and led the project. I also wrote much of the code and the paper. I curated and annotated the UnCoCo
+dataset and helped with the tabletop robot experiments.},
+  website={https://concept-fusion.github.io/},
+  selected={true},
+},
+
+@inproceedings{pacnerf,
+  bibtex_show={true},
+  title={PAC-NeRF: Physics Augmented Continuum Neural Radiance Fields for Geometry-Agnostic System Identification},
+  author={Li, Xuan and Qiao, Yi-Ling and Chen, {Peter Yichen} and Jatavallabhula, {Krishna Murthy} and Lin, Ming and Jiang, Chenfanfu and Gan, Chuang},
+  year={2023},
+  booktitle={ICLR},
+  preview={pacnerf.gif},
+  alt={A demo from PAC-NeRF -- estimating the geometry and physical properties of a deformable torus},
+  abstract={Existing approaches to system identification (estimating the physical parameters of an object) from videos assume known object geometries. This precludes their applicability in a vast majority of scenes where object geometries are complex or unknown. In this work, we aim to identify parameters characterizing a physical system from a set of multi-view videos without any assumption on object geometry or topology. To this end, we propose "Physics Augmented Continuum Neural Radiance Fields" (PAC-NeRF), to estimate both the unknown geometry and physical parameters of highly dynamic objects from multi-view videos. We design PAC-NeRF to only ever produce physically plausible states by enforcing the neural radiance field to follow the conservation laws of continuum mechanics. For this, we design a hybrid Eulerian-Lagrangian representation of the neural radiance field, i.e., we use the Eulerian grid representation for NeRF density and color fields, while advecting the neural radiance fields via Lagrangian particles. This hybrid Eulerian-Lagrangian representation seamlessly blends efficient neural rendering with the material point method (MPM) for robust differentiable physics simulation. We validate the effectiveness of our proposed framework on geometry and physical parameter estimation over a vast range of materials, including elastic bodies, plasticine, sand, Newtonian and non-Newtonian fluids, and demonstrate significant performance gain on most tasks.},
+  tldr={We integrate a differentiable physics engine with neural radiance fields for simulatneous estimation of geometry and physical properties from multi-view videos},
+  contrib={Work primarily done by Xuan when interning with Chuang. I helped design the real-world experiments. I also wrote much of the manuscript.},
+  website={https://sites.google.com/view/pac-nerf/overview?authuser=0},
+  code={https://github.com/xuan-li/PAC-NeRF},
+  recognition={Notable top 25 (top 25% of accepted submissions)},
+}
+
+@inproceedings{bom,
+  bibtex_show={true},
+  title={Bayesian Object Models for Robotic Interaction with Differentiable Probabilistic Programming},
+  author={Jatavallabhula, {Krishna Murthy} and Macklin, Miles and Fox, Dieter and Garg, Animesh and Ramos, Fabio},
+  year={2022},
+  booktitle={CoRL},
+  preview={bom.png},
+  alt={A pipeline figure for the Bayesian Object Models work},
+  abstract={A hallmark of human intelligence is the ability to build rich mental models of previously unseen objects from very few interactions. To achieve true, continuous autonomy, robots too must possess this ability. Importantly, to integrate with the probabilistic robotics software stack, such models must encapsulate the uncertainty (resulting from noisy dynamics and observation models) in a prescriptive manner. We present Bayesian Object Models (BOMs): generative (probabilistic) models that encode both the structural and kinodynamic attributes of an object. BOMs are implemented in the form of a differentiable probabilistic program that models latent scene structure, object dynamics, and observation models. This allows for efficient and automated Bayesian inference – samples (object trajectories) drawn from the BOM are compared with a small set of real-world observations and used to compute a likelihood function. Our model comprises a differentiable tree structure sampler and a differentiable physics engine, enabling gradient computation through this likelihood function. This enables gradient-based Bayesian inference to efficiently update the distributional parameters of our model. BOMs outperform several recent approaches, including differentiable physics-based, gradient-free, and neural inference schemes.},
+  tldr={We build a differentiable probabilistic physics engine that can estimate posterior distributions over object articulation chains and physical properties},
+  contrib={I led this work during my (virtual) internship at NVIDIA in summer 2021},
+}
+
 @inproceedings{bodiffsim,
   bibtex_show={true},
   title={Rethinking Optimization with Differentiable Simulation from a Global Perspective},
   author={Antonova, Rika and Yang, Jingyun and Jatavallabhula, {Krishna Murthy} and Bohg, Jeannette},
   year={2022},
-  booktitle={arXiv},
+  booktitle={CoRL},
   preview={bodiffsim.jpg},
   alt={A didactic figure explaining our core algorithm, and showing some environments we use for evaluation.},
   abstract={Differentiable simulation is a promising toolkit for fast gradient-based policy optimization and system identification. In this work, we study the challenges that differentiable simulation presents when it is not feasible to expect that a single descent reaches a global optimum. We analyze the optimization landscapes of diverse scenarios and find that in dynamic environments with highly deformable objects and fluids, differentiable simulators produce rugged landscapes with useful gradients. We propose a method that combines Bayesian optimization with semi-local leaps to obtain a global search method that can use gradients effectively and maintain robust performance in regions with noisy gradients. We show extensive experiments in simulation, and also validate the method in a real robot setup.},
@@ -16,6 +61,7 @@
   video={https://yjy0625.github.io/projects/globdiff/video/rethinking-diffsim.mp4},
   contrib={Rika and Jingyun did nearly all of the work. I was consulted primarily for advice on differentiable simulation. I helped write a few parts of the manuscript.},
   equal_first_authors={Antonova, Rika and Yang, Jingyun},
+  recognition={Oral presentation (top 6.5% of submissions)},
 }
 
 
@@ -33,7 +79,7 @@
   website={https://f-cal.github.io/},
   code={https://github.com/f-cal/f_cal},
   video={https://youtu.be/2JVVfySNATM},
-  contrib={Dhaivat and Kaustubh contributed equally to the experiments. Dishank implemented very early prototypes. Liam came up with this idea. I only played a largely hands-off, mentorship role.},
+  contrib={Dhaivat and Kaustubh contributed equally to the experiments. Dishank implemented very early prototypes. Liam came up with this idea. I only played mentor.},
   equal_first_authors={Bhatt, Dhaivat and Mani, Kaustubh}
 }
 
@@ -53,7 +99,6 @@
   code={https://github.com/taskography},
   video={https://youtu.be/mM4v5hP4LdA},
   contrib={Idea was conceived, led, and implemented by Chris and I. Chris focused more on the benchmark. I focused on the SCRUB and SEEK algorithms. Mohamed helped implement several optimal planners. Chris implemented the Taskography-API.},
-  selected={true},
   equal_first_authors={Agia, Chris and Jatavallabhula, {Krishna Murthy}}
 }
 
@@ -181,6 +226,7 @@
   pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8936918},
   video={https://youtu.be/P6Kk5pB2gF4},
   contrib={Teddy did nearly all of this work. I helped design the topometric registration algorithm and write the manuscript.},
+  recognition={Best paper award},
 }
 
 

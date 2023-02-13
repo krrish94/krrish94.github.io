@@ -123,6 +123,9 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+    {% if entry.recognition -%}
+      <font color="red"><b> {{ entry.recognition }} </b></font>
+    {%- endif -%}
   {%- endif %}
   
     <!-- Links/Buttons -->
