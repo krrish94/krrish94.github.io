@@ -6,6 +6,10 @@
   - firstname: ["Madhava", "Madhava Krishna"]
     url: https://robotics.iiit.ac.in/
 
+"Krishna":
+  - firstname: ["Madhava"]
+    url: https://robotics.iiit.ac.in/
+
 "Shkurti":
   - firstname: ["Florian", "Florian Shkurti"]
     url: http://www.cs.toronto.edu/~florian/
@@ -130,9 +134,88 @@
   - firstname: ["Brojeshwar"]
     url: https://sites.google.com/view/brojeshwar/home
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Gan":
+  - firstname: ["Chuang"]
+    url: https://people.csail.mit.edu/ganchuang/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Muhle":
+  - firstname: ["Dominik"]
+    url: https://dominikmuhle.github.io/
+
+"Koestler":
+  - firstname: ["Lukas"]
+    url: https://lukaskoestler.com/
+
+"Cremers":
+  - firstname: ["Daniel"]
+    url: https://cvg.cit.tum.de/members/cremers
+
+"Li":
+  - firstname: ["Xuan"]
+    url: https://xuan-li.github.io/
+
+  - firstname: ["Shuang"]
+    url: https://people.csail.mit.edu/lishuang/
+
+"Fox":
+  - firstname: ["Dieter"]
+    url: https://homes.cs.washington.edu/~fox/
+
+"Ramos":
+  - firstname: ["Fabio"]
+    url: https://fabioramos.github.io/Home.html
+
+"Qiao":
+  - firstname: ["Yi-Ling"]
+    url: https://ylqiao.net/
+
+"Chen":
+  - firstname: ["Peter Yichen"]
+    url: https://peterchencyc.com/
+
+  - firstname: ["Tao"]
+    url: https://taochenshh.github.io/
+
+"Lin":
+  - firstname: ["Ming"]
+    url: https://www.cs.umd.edu/~lin/
+
+"Jiang":
+  - firstname: ["Chenfanfu"]
+    url: https://www.math.ucla.edu/~cffjiang/
+
+"Kuwajerwala":
+  - firstname: ["Alihusein"]
+    url: https://www.alihkw.com/
+
+"Gu":
+  - firstname: ["Qiao"]
+    url: https://georgegu1997.github.io/
+
+"Omama":
+  - firstname: ["Mohd"]
+    url: https://scholar.google.com/citations?user=jFH3ShsAAAAJ&hl=en
+
+"Saryazdi":
+  - firstname: ["Soroush"]
+    url: https://saryazdi.github.io/
+
+"Keetha":
+  - firstname: ["Nikhil"]
+    url: https://nik-v9.github.io/
+
+"Tewari":
+  - firstname: ["Ayush"]
+    url: https://ayushtewari.com/
+
+"Tenenbaum":
+  - firstname: ["Joshua B", "Joshua B.", "Josh"]
+    url: http://web.mit.edu/cocosci/josh.html
+
+"de Melo":
+  - firstname: ["Celso Miguel"]
+    url: https://celsodemelo.net/
+
+"Torralba":
+  - firstname: ["Antonio"]
+    url: https://groups.csail.mit.edu/vision/torralbalab/

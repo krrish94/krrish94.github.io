@@ -6,7 +6,7 @@
   title={ConceptFusion: Open-set Multimodal 3D Mapping},
   author = {Jatavallabhula, {Krishna Murthy} and Kuwajerwala, Alihusein and Gu, Qiao and Omama, Mohd and Chen, Tao and Li, Shuang and Iyer, Ganesh and Saryazdi, Soroush and Keetha, Nikhil and Tewari, Ayush and Tenenbaum, {Joshua B.} and {de Melo}, {Celso Miguel} and Krishna, Madhava and Paull, Liam and Shkurti, Florian and Torralba, Antonio},
   year={2023},
-  booktitle={preprint},
+  booktitle={RSS},
   preview={conceptfusion.gif},
   alt={A gif depicting the types of multimodal queries (text, image, audio, click) supported by ConceptFusion.},
   abstract={Building 3D maps of the environment is central to robot navigation, planning, and interaction with objects in a scene. Most existing approaches that integrate semantic concepts with 3D maps largely remain confined to the closed-set setting: they can only reason bout a finite set of concepts, pre-defined at training time. Further, these maps can only be queried using class labels, or in recent work, using text prompts.
@@ -28,12 +28,25 @@ dataset and helped with the tabletop robot experiments.},
   alt={A demo from PAC-NeRF -- estimating the geometry and physical properties of a deformable torus},
   abstract={Existing approaches to system identification (estimating the physical parameters of an object) from videos assume known object geometries. This precludes their applicability in a vast majority of scenes where object geometries are complex or unknown. In this work, we aim to identify parameters characterizing a physical system from a set of multi-view videos without any assumption on object geometry or topology. To this end, we propose "Physics Augmented Continuum Neural Radiance Fields" (PAC-NeRF), to estimate both the unknown geometry and physical parameters of highly dynamic objects from multi-view videos. We design PAC-NeRF to only ever produce physically plausible states by enforcing the neural radiance field to follow the conservation laws of continuum mechanics. For this, we design a hybrid Eulerian-Lagrangian representation of the neural radiance field, i.e., we use the Eulerian grid representation for NeRF density and color fields, while advecting the neural radiance fields via Lagrangian particles. This hybrid Eulerian-Lagrangian representation seamlessly blends efficient neural rendering with the material point method (MPM) for robust differentiable physics simulation. We validate the effectiveness of our proposed framework on geometry and physical parameter estimation over a vast range of materials, including elastic bodies, plasticine, sand, Newtonian and non-Newtonian fluids, and demonstrate significant performance gain on most tasks.},
   tldr={We integrate a differentiable physics engine with neural radiance fields for simulatneous estimation of geometry and physical properties from multi-view videos},
-  contrib={Work primarily done by Xuan when interning with Chuang. I helped design the real-world experiments. I also wrote much of the manuscript.},
+  contrib={Work primarily done by Xuan when interning with Chuang, who was the lead PI. Chuang came up with the central pitch for this work. I helped design the real-world experiments. My biggest contribution to this project was perhaps that I wrote up bulk of the manuscript.},
   website={https://sites.google.com/view/pac-nerf/overview?authuser=0},
   code={https://github.com/xuan-li/PAC-NeRF},
   recognition={Notable top 25 (top 25% of accepted submissions)},
   pdf={https://openreview.net/pdf?id=tVkrbkz42vc},
 }
+
+@inproceedings{muhle2023cvpr,
+  bibtex_show={true},
+  title={Learning Correspondence Uncertainty via Differentiable Nonlinear Least Squares},
+  author = {Muhle, Dominik and Koestler, Lukas and Jatavallabhula, {Krishna Murthy} and Cremers, Daniel},
+  year={2023},
+  booktitle={CVPR},
+  preview={muhle2023cvpr.gif},
+  alt={A gif depicting the uncertainty estimation results over an autonomous driving sequence from KITTI.},
+  abstract={We propose a differentiable nonlinear least squares framework to account for uncertainty in relative pose estimation from feature correspondences. Specifically, we introduce a symmetric version of the probabilistic normal epipolar constraint, and an approach to estimate the covariance of feature positions by differentiating through the camera pose estimation procedure. We evaluate our approach on synthetic, as well as the KITTI and EuRoC real-world datasets. On the synthetic dataset, we confirm that our learned covariances accurately approximate the true noise distribution. In real world experiments, we find that our approach consistently outperforms state-of-the-art non-probabilistic and probabilistic approaches, regardless of the feature extraction algorithm of choice.},
+  contrib={Work led entirely by Dominik, and Lukas assisted with the formulation of several technical details. Daniel and I offered overarching guidance and support.},
+  website={https://dominikmuhle.github.io/dnls_covs/},
+},
 
 @inproceedings{bom,
   bibtex_show={true},
@@ -82,7 +95,7 @@ dataset and helped with the tabletop robot experiments.},
   website={https://f-cal.github.io/},
   code={https://github.com/f-cal/f_cal},
   video={https://youtu.be/2JVVfySNATM},
-  contrib={Dhaivat and Kaustubh contributed equally to the experiments. Dishank implemented very early prototypes. Liam came up with this idea. I only played mentor.},
+  contrib={Dhaivat and Kaustubh contributed equally to the experiments. Dishank implemented very early prototypes. Liam came up with this idea. I mentored Dhaivat and Kaustubh closely on this work.},
   equal_first_authors={Bhatt, Dhaivat and Mani, Kaustubh}
 }
 
@@ -120,7 +133,7 @@ dataset and helped with the tabletop robot experiments.},
   website={https://aadilmehdis.github.io/DRACO-Project-Page/},
   code={https://github.com/RahulSajnani/DRACO-Weakly-Supervised-Dense-Reconstruction-And-Canonicalization-of-Objects},
   video={https://youtu.be/jdvLaBw-pN4},
-  contrib={I played a mentorship role on this project. Srinath and Madhav contributed more than me.},
+  contrib={I mentored Rahul and Aadil on this project. Srinath and Madhav were the lead PIs, and likely contributed more than me.},
   equal_first_authors={Sajnani, Rahul and Sanchawala, {Aadil Mehdi}},
 }
 
@@ -177,7 +190,7 @@ dataset and helped with the tabletop robot experiments.},
   pdf={https://arxiv.org/pdf/2108.09047.pdf},
   website={https://autolay.github.io/},
   code={https://github.com/hbutsuak95/AutoLay},
-  contrib={Kaustubh led this work. I came up with the idea, served as mentor, and helped write some of the manuscript.},
+  contrib={Kaustubh led this work. I came up with the idea, mentored Kaustubh (admittedly, relatively sparsely), and helped write some of the manuscript. Sai, and particularly Kaustubh, were instrumental in driving this work to completion.},
   equal_first_authors={Mani, Kaustubh and Shankar, Sai},
 }
 
