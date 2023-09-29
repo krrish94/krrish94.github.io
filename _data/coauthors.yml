@@ -223,6 +223,10 @@
   - firstname: ["Antonio"]
     url: https://groups.csail.mit.edu/vision/torralbalab/
 
+"Morin":
+  - firstname: ["Sacha"]
+    url: https://sachamorin.github.io/
+
 "Sen":
   - firstname: ["Bipasha"]
     url: https://bipashasen.github.io/
@@ -232,7 +236,7 @@
     url: https://skymanaditya1.github.io/
 
 "Rivera":
-  - firstname: ["Rivera"]
+  - firstname: ["Corban"]
     url: https://www.jhuapl.edu/work/our-organization/research-and-exploratory-development/red-staff-directory/corban-rivera
 
 "Paul":
@@ -262,3 +266,55 @@
 "Rematas":
   - firstname: ["Konstantinos"]
     url: http://www.krematas.com/
+
+"Ota":
+  - firstname: ["Kei"]
+    url: https://keiohta.github.io/
+
+"Jha":
+  - firstname: ["Devesh"]
+    url: https://www.merl.com/people/jha
+
+"Kanezaki":
+  - firstname: ["Asako"]
+    url: https://kanezaki.github.io/
+
+"Mishra":
+  - firstname: ["Avneesh"]
+    url: https://theprojectsguy.github.io/
+
+"Karhade":
+  - firstname: ["Jay"]
+    url: https://jaykarhade.github.io/
+
+"Garg":
+  - firstname: ["Sourav"]
+    url: https://researchers.adelaide.edu.au/profile/sourav.garg
+
+"Scherer":
+  - firstname: ["Sebastian"]
+    url: https://theairlab.org/team/sebastian/
+
+"Dewangan":
+  - firstname: ["Vikrant"]
+    url: https://vikr-182.github.io/
+
+"Singh":
+  - firstname: ["Arun"]
+    url: https://sites.google.com/view/akslab
+
+"Srivastava":
+  - firstname: ["Siddharth"]
+    url: https://siddharthsrivastava.github.io/
+
+"Chandhok":
+  - firstname: ["Shivam"]
+    url: https://scholar.google.com/citations?user=ZER2BeIAAAAJ&hl=en
+
+"Chinchali":
+  - firstname: ["Sandeep"]
+    url: https://utaustin-swarmlab.github.io/people/sandeep_chinchali/index.html
+
+"Inani":
+  - firstname: ["Pranav"]
+    url: https://scholar.google.com/citations?user=1K8EuVEAAAAJ&hl=en
