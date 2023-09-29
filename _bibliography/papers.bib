@@ -15,6 +15,9 @@
   selected={true},
   pdf={https://concept-graphs.github.io/assets/pdf/2023-ConceptGraphs.pdf},
   equal_first_authors={Gu, Qiao and Kuwajerwala, Alihusein and Morin, Sacha and Jatavallabhula, {Krishna Murthy}},
+  video={https://youtu.be/mRhNkQwRYnc},
+  code={https://github.com/concept-graphs/concept-graphs},
+  featured={true},
 }
 
 @inproceedings{tactile-placement,
@@ -41,6 +44,22 @@
   contrib={Andy led this work. Derek was the lead PI.},
 }
 
+@inproceedings{anyloc,
+  bibtex_show={true},
+  title={AnyLoc: Towards Universal Visual Place Recognition},
+  author={Keetha, Nikhil and Mishra, Avneesh and Karhade, Jay and Jatavallabhula, {Krishna Murthy} and Scherer, Sebastian and Krishna, Madhava and Garg, Sourav},
+  year={2023},
+  booktitle={arXiv},
+  preview={anyloc.gif},
+  alt={A gif depicting the various kinds of scenes (outdoors, indoors, underwater, aerial) that AnyLoc was deployed in.},
+  abstract={},
+  contrib={Nikhil, Avneesh, and Jay equally led this work. Sourav and I closely mentored them on this work (Sourav more closely than me).},
+  equal_first_authors={Keetha, Nikhil and Mishra, Avneesh and Karhade, Jay},
+  pdf={https://arxiv.org/pdf/2308.00688.pdf},
+  code={https://github.com/AnyLoc/AnyLoc},
+  video={https://youtu.be/ITo8rMInatk},
+}
+
 @inproceedings{conceptfusion,
   bibtex_show={true},
   title={ConceptFusion: Open-set Multimodal 3D Mapping},
@@ -49,14 +68,16 @@
   booktitle={RSS},
   preview={conceptfusion.gif},
   alt={A gif depicting the types of multimodal queries (text, image, audio, click) supported by ConceptFusion.},
-  abstract={Building 3D maps of the environment is central to robot navigation, planning, and interaction with objects in a scene. Most existing approaches that integrate semantic concepts with 3D maps largely remain confined to the closed-set setting: they can only reason bout a finite set of concepts, pre-defined at training time. Further, these maps can only be queried using class labels, or in recent work, using text prompts.
-  We address both these issues with ConceptFusion, a scene representation that is: (i) fundamentally open-set, enabling reasoning beyond a closed set of concepts (ii) inherently multi-modal, enabling a diverse range of possible queries to the 3D map, from language, to images, to audio, to 3D geometry, all working in concert. ConceptFusion leverages the open-set capabilities of today’s foundation models pre-trained on internet-scale data to reason about concepts across modalities such as natural language, images, and audio. We demonstrate that pixel-aligned open-set features can be fused into 3D maps via traditional SLAM and multi-view fusion approaches. This enables effective zero-shot spatial reasoning, not needing any additional training or finetuning, and retains long-tailed concepts better than supervised approaches, outperforming them by more than 40% margin on 3D IoU. We extensively evaluate ConceptFusion on a number of real-world datasets, simulated home environments, a real-world tabletop manipulation task, and an autonomous driving platform. We showcase new avenues for blending foundation models with 3D open-set multimodal mapping.},
+  abstract={Building 3D maps of the environment is central to robot navigation, planning, and interaction with objects in a scene. Most existing approaches that integrate semantic concepts with 3D maps largely remain confined to the closed-set setting: they can only reason bout a finite set of concepts, pre-defined at training time. Further, these maps can only be queried using class labels, or in recent work, using text prompts. We address both these issues with ConceptFusion, a scene representation that is: (i) fundamentally open-set, enabling reasoning beyond a closed set of concepts (ii) inherently multi-modal, enabling a diverse range of possible queries to the 3D map, from language, to images, to audio, to 3D geometry, all working in concert. ConceptFusion leverages the open-set capabilities of today’s foundation models pre-trained on internet-scale data to reason about concepts across modalities such as natural language, images, and audio. We demonstrate that pixel-aligned open-set features can be fused into 3D maps via traditional SLAM and multi-view fusion approaches. This enables effective zero-shot spatial reasoning, not needing any additional training or finetuning, and retains long-tailed concepts better than supervised approaches, outperforming them by more than 40 percent margin on 3D IoU. We extensively evaluate ConceptFusion on a number of real-world datasets, simulated home environments, a real-world tabletop manipulation task, and an autonomous driving platform. We showcase new avenues for blending foundation models with 3D open-set multimodal mapping.},
   contrib={I conceived the idea and led the project. I also wrote much of the code and the paper. I curated and annotated the UnCoCo
 dataset and helped with the tabletop robot experiments.},
   website={https://concept-fusion.github.io/},
   selected={true},
   pdf={https://concept-fusion.github.io/assets/pdf/2023-ConceptFusion.pdf},
-},
+  code={https://github.com/concept-fusion/concept-fusion},
+  video={https://www.youtube.com/watch?v=rkXgws8fiDs},
+  featured={true},
+}
 
 @inproceedings{pacnerf,
   bibtex_show={true},
@@ -71,7 +92,7 @@ dataset and helped with the tabletop robot experiments.},
   contrib={Work primarily done by Xuan when interning with Chuang, who was the lead PI. Chuang came up with the central pitch for this work. I helped design the real-world experiments. My biggest contribution to this project was perhaps that I wrote up bulk of the manuscript.},
   website={https://sites.google.com/view/pac-nerf/overview?authuser=0},
   code={https://github.com/xuan-li/PAC-NeRF},
-  recognition={Notable top 25 (top 25% of accepted submissions)},
+  recognition={Notable top 25 (top 25 percent of accepted submissions)},
   pdf={https://openreview.net/pdf?id=tVkrbkz42vc},
 }
 
@@ -86,7 +107,7 @@ dataset and helped with the tabletop robot experiments.},
   abstract={We propose a differentiable nonlinear least squares framework to account for uncertainty in relative pose estimation from feature correspondences. Specifically, we introduce a symmetric version of the probabilistic normal epipolar constraint, and an approach to estimate the covariance of feature positions by differentiating through the camera pose estimation procedure. We evaluate our approach on synthetic, as well as the KITTI and EuRoC real-world datasets. On the synthetic dataset, we confirm that our learned covariances accurately approximate the true noise distribution. In real world experiments, we find that our approach consistently outperforms state-of-the-art non-probabilistic and probabilistic approaches, regardless of the feature extraction algorithm of choice.},
   contrib={Work led entirely by Dominik, and Lukas assisted with the formulation of several technical details. Daniel and I offered overarching guidance and support.},
   website={https://dominikmuhle.github.io/dnls_covs/},
-},
+}
 
 @inproceedings{bom,
   bibtex_show={true},
@@ -100,6 +121,7 @@ dataset and helped with the tabletop robot experiments.},
   tldr={We build a differentiable probabilistic physics engine that can estimate posterior distributions over object articulation chains and physical properties},
   contrib={I led this work during my (virtual) internship at NVIDIA in summer 2021},
   pdf={https://openreview.net/pdf?id=QSUsBMuw0uV},
+  featured={true},
 }
 
 @inproceedings{bodiffsim,
@@ -117,7 +139,7 @@ dataset and helped with the tabletop robot experiments.},
   video={https://yjy0625.github.io/projects/globdiff/video/rethinking-diffsim.mp4},
   contrib={Rika and Jingyun did nearly all of the work. I was consulted primarily for advice on differentiable simulation. I helped write a few parts of the manuscript.},
   equal_first_authors={Antonova, Rika and Yang, Jingyun},
-  recognition={Oral presentation (top 6.5% of submissions)},
+  recognition={Oral presentation (top 6.5 percent of submissions)},
 }
 
 
@@ -155,7 +177,8 @@ dataset and helped with the tabletop robot experiments.},
   code={https://github.com/taskography},
   video={https://youtu.be/mM4v5hP4LdA},
   contrib={Idea was conceived, led, and implemented by Chris and I. Chris focused more on the benchmark. I focused on the SCRUB and SEEK algorithms. Mohamed helped implement several optimal planners. Chris implemented the Taskography-API.},
-  equal_first_authors={Agia, Chris and Jatavallabhula, {Krishna Murthy}}
+  equal_first_authors={Agia, Chris and Jatavallabhula, {Krishna Murthy}},
+  featured={true},
 }
 
 
@@ -195,6 +218,7 @@ dataset and helped with the tabletop robot experiments.},
   contrib={This idea was jointly conceived in a meeting which included me, Derek, Breandan, Martin, Bhairav Mehta, and Maxime Chevalier-Boisvert. Martin prototyped an initial differentiable billiards engine. I implemented the first rigid-body engine, integrated it with a differentiable renderer, and setup sys-id experiments. Miles and I then joined forces, with him focusing on the physics engine and me focusing on the physics + rendering combination and overall systems integration. I ran all of the experiments for this paper. Florian (Golemo) and Vikram created the datasets, designed experiments, and also helped with code and the manuscript. All authors participated in writing the manuscript and the author response phase. Florian (Shkurti), Derek, and Sanja nearly equally co-advised on this effort.},
   selected={true},
   equal_first_authors={Jatavallabhula, {Krishna Murthy} and Macklin, Miles},
+  featured={true},
 }
 
 
@@ -214,6 +238,7 @@ dataset and helped with the tabletop robot experiments.},
   video={https://www.youtube.com/watch?v=2ygtSJTmo08},
   contrib={I came up with the idea and led this work. Ganesh Iyer was instrumental with implementing the surfel and point-based fusion pipelines.},
   selected={true},
+  featured={true},
 }
 
 
@@ -300,6 +325,7 @@ dataset and helped with the tabletop robot experiments.},
   code={https://github.com/NVIDIAGameWorks/kaolin},
   contrib={Edward and I led this work during our 2019 internships at NVIDIA. It has since been maintained and developed by several others, notably, Clement, Masha Shugrina, and Towaki Takikawa},
   equal_first_authors={Jatavallabhula, {Krishna Murthy} and Smith, Edward},
+  featured={true},
 }
 
 

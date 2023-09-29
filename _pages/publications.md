@@ -9,12 +9,16 @@ nav_order: 0
 ---
 
 
-For a list of my *featured* publications, please scroll down the <a href="/">home</a> page. This publication page lists all of my major publications. For an exhaustive list that includes workshop papers, please see my CV.
+For a list of my *featured* publications, please scroll down the <a href="/">home</a> page.
+<!-- This publication page lists all of my major publications.  -->
+For an exhaustive list that includes workshop papers, please see my CV.
 
 <sup>* indicates that authors contributed equally</sup>
 
 <!-- _pages/publications.md -->
 <div class="publications">
+
+<div class="title"><p style="background-color: lightyellow; color: red">Indicates featured/representative publications</p></div>
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>

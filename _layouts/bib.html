@@ -26,7 +26,12 @@
     {{reference}}
   {%- else %}
     <!-- Title -->
-    <div class="title">{{entry.title}}</div>
+    {%- if entry.featured -%}
+      <!-- light yellow background, red text -->
+      <div class="title"><p style="background-color: lightyellow; color: red">{{entry.title}}</p></div>
+    {%- else -%}
+      <div class="title">{{entry.title}}</div>
+    {%- endif -%}
     <!-- Author -->
     <div class="author">
     {%- for author in entry.author_array -%}
