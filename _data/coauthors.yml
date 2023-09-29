@@ -157,6 +157,9 @@
   - firstname: ["Shuang"]
     url: https://people.csail.mit.edu/lishuang/
 
+  - firstname: ["Tzu-Mao"]
+    url: https://cseweb.ucsd.edu/~tzli/
+
 "Fox":
   - firstname: ["Dieter"]
     url: https://homes.cs.washington.edu/~fox/
@@ -219,3 +222,43 @@
 "Torralba":
   - firstname: ["Antonio"]
     url: https://groups.csail.mit.edu/vision/torralbalab/
+
+"Sen":
+  - firstname: ["Bipasha"]
+    url: https://bipashasen.github.io/
+
+"Agarwal":
+  - firstname: ["Aditya"]
+    url: https://skymanaditya1.github.io/
+
+"Rivera":
+  - firstname: ["Rivera"]
+    url: https://www.jhuapl.edu/work/our-organization/research-and-exploratory-development/red-staff-directory/corban-rivera
+
+"Paul":
+  - firstname: ["William"]
+    url: https://scholar.google.com/citations?user=92bmh84AAAAJ
+
+"Ellis":
+  - firstname: ["Kirsty"]
+    url: https://mila.quebec/en/person/kirsty-ellis/
+
+"Chellappa":
+  - firstname: ["Rama"]
+    url: https://engineering.jhu.edu/faculty/rama-chellappa/
+
+"Spielberg":
+  - firstname: ["Andrew"]
+    url: http://www.andrewspielberg.com/
+
+"Zhong":
+  - firstname: ["Fangcheng"]
+    url: https://www.cl.cam.ac.uk/~fz261/
+
+"Oztireli":
+  - firstname: ["Cengiz"]
+    url: https://www.cl.cam.ac.uk/~aco41/
+
+"Rematas":
+  - firstname: ["Konstantinos"]
+    url: http://www.krematas.com/

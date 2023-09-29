@@ -1,6 +1,46 @@
 ---
 ---
 
+@inproceedings{conceptgraphs,
+  bibtex_show={true},
+  title={ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning},
+  author={Gu, Qiao and Kuwajerwala, Alihusein and Morin, Sacha and Jatavallabhula, {Krishna Murthy} and  Sen, Bipasha and Agarwal, Aditya and Rivera, Corban and Paul, William and Ellis, Kirsty and Chellappa, Rama and Gan, Chuang and {de Melo}, {Celso Miguel} and Tenenbaum, {Joshua B.} and Torralba, Antonio and Shkurti, Florian and Paull, Liam},
+  year={2023},
+  booktitle={arXiv},
+  preview={conceptgraphs.gif},
+  alt={A gif depicting the 3D mapping process implemented as part of ConceptGraphs.},
+  abstract={For robots to perform a wide variety of tasks, they require a 3D representation of the world that is semantically rich, yet compact and efficient for task-driven perception and planning. Recent approaches have attempted to leverage features from large vision-language models to encode semantics in 3D representations. However, these approaches tend to produce maps with per-point feature vectors, which do not scale well in larger environments, nor do they contain semantic spatial relationships between entities in the environment, which are useful for downstream planning. In this work, we propose ConceptGraphs, an open-vocabulary graph-structured representation for 3D scenes. ConceptGraphs is built by leveraging 2D foundation models and fusing their output to 3D by multi-view association. The resulting representations generalize to novel semantic classes, without the need to collect large 3D datasets or finetune models. We demonstrate the utility of this representation through a number of downstream planning tasks that are specified through abstract (language) prompts and require complex reasoning over spatial and semantic concepts.},
+  contrib={I co-led multiple aspects of this work, building off of conceptfusion.},
+  website={https://concept-graphs.github.io/},
+  selected={true},
+  pdf={https://concept-graphs.github.io/assets/pdf/2023-ConceptGraphs.pdf},
+  equal_first_authors={Gu, Qiao and Kuwajerwala, Alihusein and Morin, Sacha and Jatavallabhula, {Krishna Murthy}},
+}
+
+@inproceedings{tactile-placement,
+  bibtex_show={true},
+  title={Tactile Estimation of Extrinsic Contact Patch for Stable Placement},
+  author={Ota, Kei and Jha, Devesh and Jatavallabhula, {Krishna Murthy} and Tenenbaum, {Joshua B.}},
+  year={2023},
+  booktitle={arXiv},
+  preview={stable-placement.gif},
+  alt={A robot gently stacking two light-weight objects using tactile sensing and our proposed method.},
+  abstract={Precise perception of contact interactions is essential for the fine-grained manipulation skills for robots. In this paper, we present the design of feedback skills for robots that must learn to stack complex-shaped objects on top of each other. To design such a system, a robot should be able to reason about the stability of placement from very gentle contact interactions. Our results demonstrate that it is possible to infer the stability of object placement based on tactile readings during contact formation between the object and its environment. In particular, we estimate the contact patch between a grasped object and its environment using force and tactile observations to estimate the stability of the object during a contact formation. The contact patch could be used to estimate the stability of the object upon the release of the grasp. The proposed method is demonstrated on various pairs of objects that are used in a very popular board game.},
+  contrib={Kei and Devesh did much of the work. I was consulted for advice with tactile sensors and problem framing.},
+  pdf={https://arxiv.org/pdf/2309.14552.pdf},
+}
+
+@inproceedings{diff-visual-computing-review,
+  bibtex_show={true},
+  title={Differentiable Visual Computing for Inverse Problems and Machine Learning},
+  author={Spielberg, Andrew and Oztireli, Cengiz and Nowrouzezahrai, Derek and Zhong, Fangcheng and Rematas, Konstantinos and Jatavallabhula, {Krishna Murthy} and Li, Tzu-Mao},
+  year={2023},
+  booktitle={Nature Machine Intelligence},
+  preview={diff-visual-computing-review.png},
+  abstract={Modern 3D computer graphics technologies are able to reproduce the dynamics and appearance of real world environments and phenomena, building atop theoretical models in applied mathematics, statistics, and physics. These methods are applied in architectural design and visualization, biological imaging, and visual effects. Differentiable methods, instead, aim to determine how graphics outputs (i.e., the real world dynamics or appearance) change when the environment changes. We survey this growing body of work and propose a holistic and unified differentiable visual computing pipeline. Differentiable visual computing can be leveraged to efficiently solve otherwise intractable problems in physical inference, optimal control, object detection and scene understanding, computational design, manufacturing, autonomous vehicles, and robotics. Any application that can benefit from an understanding of the underlying dynamics of the real world stands to benefit significantly from a differentiable graphics treatment. We draw parallels between the well-established computer graphics pipeline and a unified differentiable graphics pipeline, targeting consumers, practitioners and researchers. The breadth of fields that these pipelines draws upon — and are of interest to — includes the physical sciences, data sciences, vision and graphics, machine learning, and adjacent mathematical and computing communities.},
+  contrib={Andy led this work. Derek was the lead PI.},
+}
+
 @inproceedings{conceptfusion,
   bibtex_show={true},
   title={ConceptFusion: Open-set Multimodal 3D Mapping},
