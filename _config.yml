@@ -77,7 +77,7 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics: UA-130243767-1 # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-KVVBP90SEH # your google-analytics ID (format: UA-XXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
