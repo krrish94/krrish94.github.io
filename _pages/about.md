@@ -20,5 +20,3 @@ I am a postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Antonio Torralba
 My research focuses on designing _structured world models for robots_: rich, multisensory models of the physical world that enable robots and embodied AI systems to perceive, reason, and act just as humans are able. My work draws upon ideas from robotics, computer vision, graphics, and computational cognitive science; intertwining our understanding of the world with probabilistic inference and deep learning.
 
 My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
-
-<span style="color:red; font-weight:bold;">I am looking for academic / industry roles this cycle (Jan-May 2024).</span>
