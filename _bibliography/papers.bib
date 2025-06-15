@@ -1,6 +1,33 @@
 ---
 ---
 
+@inproceedings{locate3d,
+  bibtex_show={true},
+  title={Locate 3D: Real-World Object Localization via Self-Supervised Learning in 3D},
+  author={Arnaud, Sergio and McVay, Paul and Martin, Ada and Majumdar, Arjun and Jatavallabhula, {Krishna Murthy} and Thomas, Phillip and Partsey, Ruslan and Dugas, Daniel and Gejji, Abha and Sax, Alexander and Berges, Vincent-Pierre and Henaff, Mikael and Jain, Ayush and Cao, Ang and Prasad, Ishita and Kalakrishnan, Mrinal and Rabbat, Michael and Ballas, Nicolas and Assran, Mido and Maksymets, Oleksandr and Rajeswaran, Aravind and Meier, Franziska},
+  year={2025},
+  booktitle={ICML},
+  preview={locate3d.png},
+  alt={An image showing the output text labels from the locate 3d model.},
+  abstract={We present LOCATE 3D, a model for localizing objects in 3D scenes from referring expressions like "the small coffee table between the sofa and the lamp." LOCATE 3D sets a new state-of-the-art on standard referential grounding benchmarks and showcases robust generalization capabilities. Notably, LOCATE 3D operates directly on sensor observation streams (posed RGB-D frames), enabling real-world deployment on robots and AR devices. Key to our approach is 3D-JEPA, a novel self-supervised learning (SSL) algorithm applicable to sensor point clouds. It takes as input a 3D pointcloud featurized using 2D foundation models (CLIP, DINO). Subsequently, masked prediction in latent space is employed as a pretext task to aid the self-supervised learning of contextualized pointcloud features. Once trained, the 3D-JEPA encoder is finetuned alongside a language-conditioned decoder to jointly predict 3D masks and bounding boxes. Additionally, we introduce LOCATE 3D DATASET, a new dataset for 3D referential grounding, spanning multiple capture setups with over 130K annotations. This enables a systematic study of generalization capabilities as well as a stronger model.},
+  contrib={I worked on the data preprocessing stage of Locate 3D.},
+  website={https://locate3d.atmeta.com/},
+}
+
+@inproceedings{gs-mpc,
+  bibtex_show={true},
+  title={Gaussian Splatting Visual MPC for Granular Media Manipulation},
+  author={Tseng, Wei-Cheng and Zhang, Ellina and Jatavallabhula, {Krishna Murthy} and Shkurti, Florian},
+  year={2025},
+  booktitle={ICRA},
+  preview={gs_vmpc.gif},
+  alt={A gif showing a robot separating granular media into two piles.},
+  abstract={Recent advancements in learned 3D representations have enabled significant progress in solving complex robotic manipulation tasks, particularly for rigid-body objects. However, manipulating granular materials such as beans, nuts, and rice, remains challenging due to the intricate physics of particle interactions, high-dimensional and partially observable state, inability to visually track individual particles in a pile, and the computational demands of accurate dynamics prediction. Current deep latent dynamics models often struggle to generalize in granular material manipulation due to a lack of inductive biases. In this work, we propose a novel approach that learns a visual dynamics model over Gaussian splatting representations of scenes and leverages this model for manipulating granular media via Model-Predictive Control. Our method enables efficient optimization for complex manipulation tasks on piles of granular media. We evaluate our approach in both simulated and real-world settings, demonstrating its ability to solve unseen planning tasks and generalize to new environments in a zero-shot transfer. We also show significant prediction and manipulation performance improvements compared to existing granular media manipulation methods.},
+  contrib={I co-advised Wei-Cheng on this project.},
+  website={https://weichengtseng.github.io/gs-granular-mani/},
+  pdf={https://arxiv.org/pdf/2410.09740.pdf},
+}
+
 @inproceedings{splatam,
   bibtex_show={true},
   title={SplaTAM:Splat, Track, and Map 3D Gaussians for Dense RGB-D SLAM},

@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an AI research scientist at [Meta](https://ai.meta.com/research/). Previously, I was a postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Antonio Torralba](https://web.mit.edu/torralba/www/) and [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html). Prior to that, I received my PhD at [Universite de Montreal](https://www.umontreal.ca/) and [Mila](https://mila.quebec/en/), advised by [Liam Paull](http://liampaull.ca/).
+I am an AI research scientist at [Meta](https://ai.meta.com/research/) and an incoming assistant professor with the [CS department](https://www.cs.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/).
 
-My research focuses on building _world models for robots_ and other physical agents to enable them to perceive, reason, and act just as humans are able. My work spans the robotics, computer vision, and machine learning communities.
+I strive to build full-stack robotic systems that perceive, reason, and act with human-level efficiency, ultimately surpassing them. My work lies at the _perception-action interface_, tackling both how robots should represent the world around them, and how they use it for action. This draws inspiration from several adjacent fields, including computer vision, machine learning, and cognitive science.
 
-My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
+Previously, I was a postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Antonio Torralba](https://web.mit.edu/torralba/www/) and [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html). I completed my PhD at [Universite de Montreal](https://www.umontreal.ca/) and [Mila](https://mila.quebec/en/), advised by [Liam Paull](http://liampaull.ca/). My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
