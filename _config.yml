@@ -8,13 +8,13 @@ middle_name: Murthy
 last_name: Jatavallabhula
 email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Krishna Murthy - Postdoc @ MIT - Multisensory perception (vision, audio, touch, language)
+  Krishna Murthy - Research scientist, Meta
 footer_text: >
   Adopted and tweaked the <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords:  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: mit.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://krrish94.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -89,7 +89,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: Krishna's blog # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: An assortment of academic experiences and advice
+blog_description: #
 permalink: /blog/:year/:title/
 
 # Pagination
