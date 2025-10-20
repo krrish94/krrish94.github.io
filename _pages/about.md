@@ -15,8 +15,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an AI research scientist at [Meta](https://ai.meta.com/research/) and an incoming assistant professor with the [CS department](https://www.cs.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/).
+I am an AI research scientist at [Meta](https://ai.meta.com/research/). I am also an incoming assistant professor with the [CS department](https://www.cs.jhu.edu/) at [Johns Hopkins University](https://www.jhu.edu/), starting mid-2026, where I will direct the [SciPhy lab](https://sci-fi-lab.github.io).
 
-I strive to build full-stack robotic systems that perceive, reason, and act with human-level efficiency, ultimately surpassing them. My work lies at the _perception-action interface_, tackling both how robots should represent the world around them, and how they use it for action. This draws inspiration from several adjacent fields, including computer vision, machine learning, and cognitive science.
+I strive to build full-stack robotic systems that perceive, reason, and act with human-level efficiency, ultimately surpassing them. My work lies at the _perception-action interface_, tackling both how robots should represent the world around them, and how they use it for action.
 
-Previously, I was a postdoc at [MIT CSAIL](https://www.csail.mit.edu/) with [Antonio Torralba](https://web.mit.edu/torralba/www/) and [Josh Tenenbaum](http://web.mit.edu/cocosci/josh.html). I completed my PhD at [Universite de Montreal](https://www.umontreal.ca/) and [Mila](https://mila.quebec/en/), advised by [Liam Paull](http://liampaull.ca/). My work has been recognized with PhD fellowship awards from NVIDIA and Google, and a best-paper award from IEEE RAL.
+Prior to this, I spent time as a postdoc at [MIT CSAIL](https://www.csail.mit.edu/) and as a PhD candidate at [Universite de Montreal](https://www.umontreal.ca/). My work has been recognized with PhD fellowship awards from NVIDIA and Google, a best-paper award from IEEE RAL, and an induction to the RSS Pioneers 2020 cohort.
