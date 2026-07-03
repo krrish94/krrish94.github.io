@@ -1,0 +1,130 @@
+---
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsTable from '../components/NewsTable.astro';
+import PublicationEntry from '../components/PublicationEntry.astro';
+import { SITE } from '../config/site';
+import { Content as Intro } from '../data/home-intro.md';
+import profPic from '../assets/prof_pic.png';
+
+const news = (await getCollection('news')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf() || b.id.localeCompare(a.id)
+);
+
+// The old homepage's "Featured publications": entries with selected=true,
+// in papers.bib order.
+const selectedPubs = (
+  await getCollection('publications', ({ data }) => data.selected)
+).sort((a, b) => a.data.order - b.data.order);
+---
+
+<BaseLayout>
+  <header class="home-header">
+    <h1><strong>{SITE.firstName}</strong> {SITE.restName}</h1>
+    <p class="home-subtitle muted">{SITE.subtitle}</p>
+  </header>
+
+  <div class="home-grid">
+    <aside class="home-side">
+      <Image
+        class="home-photo"
+        src={profPic}
+        alt="A photograph of Krishna"
+        widths={[280, 560]}
+        sizes="(max-width: 780px) 60vw, 280px"
+      />
+      <p class="home-links">
+        <b><a href={`mailto:${SITE.email}`}>Email</a></b> |
+        <b><a href={SITE.links.googleScholar}>Google Scholar</a></b><br />
+        <b><a href={SITE.links.cv}>CV</a></b> |
+        <b><a href={SITE.links.thesis}>PhD Thesis</a></b><br />
+        <b><a href={SITE.links.github}>GitHub</a></b> |
+        <b><a href={SITE.links.linkedin}>LinkedIn</a></b>
+      </p>
+    </aside>
+    <div class="home-intro prose">
+      <Intro />
+    </div>
+  </div>
+
+  <section class="home-section">
+    <h2>News</h2>
+    <NewsTable entries={news} />
+  </section>
+
+  <section class="home-section">
+    <h2>Featured publications</h2>
+    <div class="home-pubs">
+      {selectedPubs.map((pub) => <PublicationEntry publication={pub} />)}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .home-header {
+    margin-block: 2.5rem 1.5rem;
+  }
+
+  .home-header h1 strong {
+    font-weight: 700;
+  }
+
+  .home-header h1 {
+    font-weight: 400;
+  }
+
+  .home-subtitle {
+    margin-top: 0.35rem;
+    font-size: 1.05rem;
+  }
+
+  .home-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .home-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .home-links {
+    text-align: center;
+    margin-top: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.9;
+  }
+
+  .home-section {
+    margin-top: 3rem;
+  }
+
+  .home-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .home-pubs :global(.pub:first-child) {
+    border-top: var(--border-w) solid var(--border);
+  }
+
+  @media (max-width: 780px) {
+    .home-grid {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+
+    .home-photo {
+      max-width: 280px;
+      margin-inline: auto;
+    }
+
+    .home-links {
+      max-width: 280px;
+      margin-inline: auto;
+    }
+  }
+</style>

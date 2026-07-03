@@ -1,0 +1,17 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page not found"
+  description="Looks like there has been a mistake. Nothing exists here."
+>
+  <!-- Same behavior as the old 404 page: redirect home after 3 seconds. -->
+  <meta http-equiv="refresh" content="3; url=/" />
+  <h1 class="page-title">Page not found</h1>
+  <p class="muted">Looks like there has been a mistake. Nothing exists here.</p>
+  <p>
+    You will be redirected to the main page within 3 seconds. If not
+    redirected, please click <a href="/">here</a>.
+  </p>
+</BaseLayout>

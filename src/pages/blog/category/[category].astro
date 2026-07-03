@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostList from '../../../components/PostList.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const categories = [...new Set(posts.flatMap((p) => p.data.categories))];
+  return categories.map((category) => ({
+    params: { category },
+    props: {
+      posts: posts.filter((p) => p.data.categories.includes(category)),
+    },
+  }));
+}
+
+const { category } = Astro.params;
+const { posts } = Astro.props;
+---
+
+<BaseLayout title={category}>
+  <h1 class="page-title">{category}</h1>
+  <p class="muted archive-note">an archive of posts in this category</p>
+  <PostList posts={posts} />
+</BaseLayout>
+
+<style>
+  .archive-note {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.925rem;
+  }
+</style>

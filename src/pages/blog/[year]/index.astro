@@ -1,0 +1,33 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import PostList from '../../../components/PostList.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  const years = [...new Set(posts.map((p) => p.data.date.getUTCFullYear()))];
+  return years.map((year) => ({
+    params: { year: String(year) },
+    props: {
+      posts: posts.filter((p) => p.data.date.getUTCFullYear() === year),
+    },
+  }));
+}
+
+const { year } = Astro.params;
+const { posts } = Astro.props;
+---
+
+<BaseLayout title={year}>
+  <h1 class="page-title">{year}</h1>
+  <p class="muted archive-note">an archive of posts from this year</p>
+  <PostList posts={posts} />
+</BaseLayout>
+
+<style>
+  .archive-note {
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.925rem;
+  }
+</style>

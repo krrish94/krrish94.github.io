@@ -1,0 +1,316 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  publication: CollectionEntry<'publications'>;
+}
+
+const { publication } = Astro.props;
+const {
+  key,
+  title,
+  authors,
+  venue,
+  year,
+  month,
+  featured,
+  recognition,
+  preview,
+  previewAlt,
+  abbr,
+  links,
+  abstract,
+  tldr,
+  contrib,
+  bibtex,
+} = publication.data;
+
+// Button row in the old bib.html's exact order. Entries with a `panel` are
+// toggles for the hidden blocks below; the rest are plain links.
+const buttons: { label: string; href?: string; panel?: string }[] = [];
+if (links.pdf) buttons.push({ label: 'PDF', href: links.pdf });
+if (links.supp) buttons.push({ label: 'Supp', href: links.supp });
+if (links.website) buttons.push({ label: 'Webpage', href: links.website });
+if (links.code) buttons.push({ label: 'Code', href: links.code });
+if (abstract) buttons.push({ label: 'Abs', panel: 'abstract' });
+if (links.arxiv) buttons.push({ label: 'arXiv', href: links.arxiv });
+buttons.push({ label: 'Bib', panel: 'bibtex' });
+if (links.html) buttons.push({ label: 'HTML', href: links.html });
+if (links.blog) buttons.push({ label: 'Blog', href: links.blog });
+if (links.poster) buttons.push({ label: 'Poster', href: links.poster });
+if (links.slides) buttons.push({ label: 'Slides', href: links.slides });
+if (links.video) buttons.push({ label: 'Video', href: links.video });
+if (tldr) buttons.push({ label: 'TL;DR', panel: 'tldr' });
+if (contrib) buttons.push({ label: 'Contributions', panel: 'contrib' });
+
+const panels = [
+  { name: 'abstract', text: abstract },
+  { name: 'tldr', text: tldr },
+  { name: 'contrib', text: contrib },
+].filter((p) => p.text);
+
+// Per-button icons (Feather, MIT-licensed): 24×24 stroke paths rendered at
+// 13px with currentColor, matching the theme-toggle's icon style.
+const ICONS: Record<string, string> = {
+  PDF: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>',
+  Supp: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="12" y1="18" x2="12" y2="12"/><line x1="9" y1="15" x2="15" y2="15"/>',
+  Webpage:
+    '<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>',
+  Code: '<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>',
+  Abs: '<line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="17" y1="18" x2="3" y2="18"/>',
+  arXiv:
+    '<polyline points="21 8 21 21 3 21 3 8"/><rect x="1" y="3" width="22" height="5"/><line x1="10" y1="12" x2="14" y2="12"/>',
+  Bib: '<path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>',
+  HTML: '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>',
+  Blog: '<path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>',
+  Poster:
+    '<rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>',
+  Slides:
+    '<rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>',
+  Video:
+    '<polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>',
+  'TL;DR': '<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+  Contributions:
+    '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a3.99 3.99 0 0 1 0 7.75"/>',
+};
+---
+
+<article class="pub" id={key}>
+  <div class="pub-side">
+    {
+      preview ? (
+        <img class="pub-teaser" src={preview} alt={previewAlt} loading="lazy" />
+      ) : abbr ? (
+        <span class="pill">{abbr}</span>
+      ) : null
+    }
+  </div>
+  <div class="pub-body">
+    <h3 class:list={['pub-title', featured && 'pub-title--featured']}>
+      {title}
+    </h3>
+    <p class="pub-authors">
+      {
+        authors.map((a, i) => {
+          const isLast = i === authors.length - 1;
+          const name = a.self ? (
+            <em class="pub-self">{a.name}</em>
+          ) : a.url ? (
+            <a href={a.url} target="_blank" rel="noopener noreferrer">
+              {a.name}
+            </a>
+          ) : (
+            a.name
+          );
+          return (
+            <span class="pub-author">
+              {isLast && authors.length > 1 && 'and '}
+              {name}
+              {a.equal && '*'}
+              {!isLast && ', '}
+            </span>
+          );
+        })
+      }
+    </p>
+    <p class="pub-venue muted">
+      <em>{venue}</em>{month ? ` ${month}` : ''} {year}
+    </p>
+    {recognition && <p class="pub-recognition">{recognition}</p>}
+    <div class="pub-links">
+      {
+        buttons.map((b) => {
+          const icon = ICONS[b.label] && (
+            <svg
+              class="btn-icon"
+              width="13"
+              height="13"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              set:html={ICONS[b.label]}
+            />
+          );
+          return b.panel ? (
+            <button
+              class="btn"
+              type="button"
+              data-toggle={b.panel}
+              aria-expanded="false"
+              aria-controls={`${key}-${b.panel}`}
+            >
+              {icon}
+              {b.label}
+            </button>
+          ) : (
+            <a class="btn" href={b.href} target="_blank" rel="noopener noreferrer">
+              {icon}
+              {b.label}
+            </a>
+          );
+        })
+      }
+    </div>
+    {
+      panels.map((p) => (
+        <div class="pub-panel" id={`${key}-${p.name}`} data-panel={p.name} hidden>
+          <p>{p.text}</p>
+        </div>
+      ))
+    }
+    <div class="pub-panel" id={`${key}-bibtex`} data-panel="bibtex" hidden>
+      <pre><code>{bibtex}</code></pre>
+    </div>
+  </div>
+</article>
+
+<style>
+  .pub {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 1.5rem;
+    padding-block: 1.5rem;
+    border-bottom: var(--border-w) solid var(--border);
+  }
+
+  .pub-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  /* contain (not cover): paper figures come in wild aspect ratios; letterbox
+     them on the surface tone rather than cropping */
+  .pub-teaser {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: contain;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  .pub-title {
+    font-size: 1.05rem;
+  }
+
+  .pub-title--featured {
+    display: inline-block;
+    background: var(--accent-tint);
+    color: var(--accent);
+    padding: 0.05rem 0.4rem;
+    border-radius: var(--radius);
+  }
+
+  .pub-authors {
+    font-size: 0.925rem;
+    margin-top: 0.3rem;
+  }
+
+  .pub-authors a {
+    color: var(--text-muted);
+  }
+
+  .pub-authors a:hover {
+    color: var(--accent);
+  }
+
+  .pub-self {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .pub-venue {
+    font-size: 0.875rem;
+    margin-top: 0.2rem;
+  }
+
+  .pub-recognition {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin-top: 0.2rem;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.45rem;
+    margin-top: 0.7rem;
+  }
+
+  .pub-links .btn[aria-expanded='true'] {
+    background: var(--accent-tint);
+    border-color: var(--accent);
+  }
+
+  .pub-links :global(.btn-icon) {
+    flex-shrink: 0;
+    color: var(--text-muted);
+  }
+
+  .pub-links .btn:hover :global(.btn-icon) {
+    color: var(--accent);
+  }
+
+  .pub-panel {
+    font-size: 0.875rem;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.65rem 1rem;
+    margin-top: 0.7rem;
+  }
+
+  .pub-panel pre {
+    font-size: 0.8rem;
+    overflow-x: auto;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .pub-panel pre code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+
+  @media (max-width: 640px) {
+    .pub {
+      grid-template-columns: 1fr;
+      gap: 0.9rem;
+    }
+
+    .pub-side {
+      justify-content: flex-start;
+    }
+
+    .pub-teaser {
+      max-width: 280px;
+    }
+  }
+</style>
+
+<script>
+  // One delegated listener for all publication toggles on the page: each
+  // button shows/hides its own panel; any combination may be open at once
+  // (matching the old site's jQuery behavior).
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-toggle]');
+    if (!btn) return;
+    const body = btn.closest('.pub-body');
+    const panel = body?.querySelector<HTMLElement>(
+      `[data-panel="${btn.dataset.toggle}"]`
+    );
+    if (!panel) return;
+    const nowOpen = panel.hasAttribute('hidden');
+    panel.toggleAttribute('hidden');
+    btn.setAttribute('aria-expanded', String(nowOpen));
+  });
+</script>

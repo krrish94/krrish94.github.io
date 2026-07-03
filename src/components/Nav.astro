@@ -1,0 +1,98 @@
+---
+import { SITE } from '../config/site';
+import ThemeToggle from './ThemeToggle.astro';
+
+// Same items (and lowercase labels) as the old al-folio navbar.
+const items = [
+  { label: 'about', href: '/' },
+  { label: 'blog', href: '/blog/' },
+  { label: 'publications', href: '/publications/' },
+];
+
+const current = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? current === '/' : current.startsWith(href);
+---
+
+<header class="nav-bar">
+  <nav class="shell nav-inner" aria-label="Main">
+    <a class="wordmark" href="/"
+      ><strong>{SITE.firstName}</strong> {SITE.restName}</a
+    >
+    <div class="nav-links">
+      {
+        items.map((item) => (
+          <a
+            href={item.href}
+            class:list={['nav-link', isActive(item.href) && 'is-active']}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+          >
+            {item.label}
+          </a>
+        ))
+      }
+      <ThemeToggle />
+    </div>
+  </nav>
+</header>
+
+<style>
+  .nav-bar {
+    border-bottom: var(--border-w) solid var(--border);
+    background: var(--bg);
+  }
+
+  .nav-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    padding-block: 0.85rem;
+  }
+
+  .wordmark {
+    font-weight: 400;
+    font-size: 1.05rem;
+    letter-spacing: -0.01em;
+    color: var(--text);
+  }
+
+  .wordmark strong {
+    font-weight: 600;
+  }
+
+  .wordmark:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.35rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    padding: 0.25rem 0.55rem;
+    border: var(--border-w) solid transparent;
+    border-radius: var(--radius);
+    transition: background-color 120ms ease, color 120ms ease;
+  }
+
+  .nav-link:hover {
+    color: var(--text);
+    background: var(--accent-tint);
+    text-decoration: none;
+  }
+
+  .nav-link.is-active {
+    color: var(--accent);
+    border-color: var(--border);
+    background: var(--surface);
+  }
+</style>

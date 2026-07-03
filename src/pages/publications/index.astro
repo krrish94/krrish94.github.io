@@ -1,0 +1,66 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PublicationEntry from '../../components/PublicationEntry.astro';
+
+// Year groups descending; within a year, papers.bib file order (the old
+// site's behavior). Years are derived from the data — no hardcoded list.
+const pubs = (await getCollection('publications')).sort(
+  (a, b) => b.data.year - a.data.year || a.data.order - b.data.order
+);
+const years = [...new Set(pubs.map((p) => p.data.year))];
+---
+
+<BaseLayout title="Publications">
+  <h1 class="page-title">Publications</h1>
+
+  <div class="prose">
+    <p>
+      For a list of my <em>featured</em> publications, please scroll down the
+      <a href="/">home</a> page. For an exhaustive list that includes workshop
+      papers, please see my CV.
+    </p>
+    <p>
+      <sup>* indicates that authors contributed equally</sup><br />
+      <sup>† indicates equal advising</sup>
+    </p>
+  </div>
+
+  <p class="pub-legend">Indicates featured/representative publications</p>
+
+  {
+    years.map((year) => (
+      <section class="pub-year-group">
+        <h2 class="pub-year">{year}</h2>
+        {pubs
+          .filter((p) => p.data.year === year)
+          .map((pub) => (
+            <PublicationEntry publication={pub} />
+          ))}
+      </section>
+    ))
+  }
+</BaseLayout>
+
+<style>
+  /* Same affordance as the featured-title highlight, so the legend is
+     self-explanatory. */
+  .pub-legend {
+    display: inline-block;
+    background: var(--accent-tint);
+    color: var(--accent);
+    padding: 0.05rem 0.4rem;
+    border-radius: var(--radius);
+    font-size: 0.925rem;
+    margin-block: 1.25rem 0.5rem;
+  }
+
+  .pub-year-group {
+    margin-top: 1.5rem;
+  }
+
+  .pub-year {
+    border-bottom: var(--border-w) solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+</style>

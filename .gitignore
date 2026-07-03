@@ -1,11 +1,16 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-.tweet-cache
-Gemfile.lock
-vendor
+# build output
+dist/
+# generated types
+.astro/
+# dependencies
+node_modules/
+# environment
+.env
+.env.production
+# macOS
+.DS_Store
 
+# Claude working docs (deliberately untracked)
+CLAUDE.md
+claude_docs/
+.claude/

@@ -1,0 +1,49 @@
+---
+import { SITE } from '../config/site';
+
+// Both stamped at build time, matching the old footer's behavior
+// ("© Copyright <year> … Last updated: <build date>.").
+const now = new Date();
+const year = now.getFullYear();
+const lastUpdated = now.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+---
+
+<footer class="footer">
+  <div class="shell footer-inner">
+    &copy; Copyright {year}
+    {SITE.firstName}
+    {SITE.restName}. Hand-rolled with <a
+      href="https://astro.build/"
+      target="_blank"
+      rel="noopener">Astro</a
+    >. Last updated: {lastUpdated}.
+  </div>
+</footer>
+
+<style>
+  .footer {
+    border-top: var(--border-w) solid var(--border);
+    margin-top: 4rem;
+  }
+
+  .footer-inner {
+    padding-block: 1.25rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+  }
+
+  .footer a {
+    color: var(--text-muted);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    text-underline-offset: 3px;
+  }
+
+  .footer a:hover {
+    color: var(--accent);
+  }
+</style>

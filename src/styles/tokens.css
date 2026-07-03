@@ -1,0 +1,215 @@
+/*
+ * Design tokens.
+ *
+ * Two orthogonal axes:
+ *   - data-palette (baked at build time from SITE.palette): which color identity
+ *   - data-theme   (set at runtime, light|dark): scheme variant of that palette
+ *
+ * Components must only consume var(--...) — never raw hex values.
+ * Shared with the Sci-Phy lab site's design system; 'cobalt' is this site's
+ * own palette, derived from the old al-folio accent (#00369f).
+ */
+
+:root {
+  /* shape + structure */
+  --radius: 2px;
+  --border-w: 1px;
+  --shell-max: 1160px;
+  --prose-max: 70ch;
+
+  /* type */
+  --font-sans: 'Inter Variable', system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+}
+
+/* ---------------------------------------------------------------- cobalt */
+/* Deep cobalt on cool paper: crisp, technical — this site's identity,     */
+/* carried over from the old site's dark-blue accent.                      */
+
+:root,
+[data-palette='cobalt'] {
+  color-scheme: light;
+  --bg: #fafbfd;
+  --surface: #f1f4f8;
+  --text: #16181d;
+  --text-muted: #555c68;
+  --border: #dee3ea;
+  --accent: #00369f;
+  --accent-hover: #002a80;
+  --accent-tint: #e9eef9;
+}
+
+[data-palette='cobalt'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #12151b;
+  --surface: #1a1e26;
+  --text: #e8eaee;
+  --text-muted: #a2a8b4;
+  --border: #2a2f3a;
+  --accent: #8fa9f2;
+  --accent-hover: #aabdf6;
+  --accent-tint: rgba(143, 169, 242, 0.13);
+}
+
+/* ---------------------------------------------------------------- forest */
+/* Deep-green academic: quiet, botanical, unmistakably not default-blue.   */
+
+[data-palette='forest'] {
+  color-scheme: light;
+  --bg: #fafaf7;
+  --surface: #f2f4ef;
+  --text: #171a17;
+  --text-muted: #565e56;
+  --border: #dfe3da;
+  --accent: #1e5c3f;
+  --accent-hover: #17492f;
+  --accent-tint: #eaf1ec;
+}
+
+[data-palette='forest'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #121513;
+  --surface: #1a1f1b;
+  --text: #e8eae7;
+  --text-muted: #a3aaa3;
+  --border: #2a302b;
+  --accent: #6fbf95;
+  --accent-hover: #8dd0ab;
+  --accent-tint: rgba(111, 191, 149, 0.12);
+}
+
+/* ----------------------------------------------------------------- amber */
+/* Ink + amber on warm paper: bookish, editorial.                          */
+
+[data-palette='amber'] {
+  color-scheme: light;
+  --bg: #fcfbf9;
+  --surface: #f6f4f0;
+  --text: #1a1a18;
+  --text-muted: #5f5c55;
+  --border: #e3e0d8;
+  --accent: #9a5b00;
+  --accent-hover: #7c4a00;
+  --accent-tint: #f6efe3;
+}
+
+[data-palette='amber'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #151412;
+  --surface: #1d1c19;
+  --text: #eae8e4;
+  --text-muted: #a8a49c;
+  --border: #302e29;
+  --accent: #e0a458;
+  --accent-hover: #eab97c;
+  --accent-tint: rgba(224, 164, 88, 0.12);
+}
+
+/* ------------------------------------------------------------------- ink */
+/* Near-monochrome: white, grays, black links/buttons. Strictest minimal;  */
+/* photos and figures provide the only color.                              */
+
+[data-palette='ink'] {
+  color-scheme: light;
+  --bg: #fbfbfa;
+  --surface: #f1f1ef;
+  --text: #191919;
+  --text-muted: #5c5c58;
+  --border: #e2e2de;
+  --accent: #1a1a1a;
+  --accent-hover: #000000;
+  --accent-tint: #ececea;
+}
+
+[data-palette='ink'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #141414;
+  --surface: #1d1d1d;
+  --text: #eaeaea;
+  --text-muted: #a5a5a1;
+  --border: #2c2c2c;
+  --accent: #e8e8e8;
+  --accent-hover: #ffffff;
+  --accent-tint: rgba(255, 255, 255, 0.08);
+}
+
+/* --------------------------------------------------------------- crimson */
+/* Deep crimson on warm paper: bold, collegiate. (The Sci-Phy lab palette.) */
+
+[data-palette='crimson'] {
+  color-scheme: light;
+  --bg: #fbfaf8;
+  --surface: #f4f1ed;
+  --text: #1b1817;
+  --text-muted: #5f5856;
+  --border: #e5e0dc;
+  --accent: #9e2b25;
+  --accent-hover: #7f211c;
+  --accent-tint: #f7e8e6;
+}
+
+[data-palette='crimson'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #171313;
+  --surface: #201a1a;
+  --text: #ece7e6;
+  --text-muted: #ab9f9d;
+  --border: #332b2a;
+  --accent: #e0766c;
+  --accent-hover: #eb9188;
+  --accent-tint: rgba(224, 118, 108, 0.12);
+}
+
+/* ---------------------------------------------------------------- indigo */
+/* Deep indigo on cool paper: quietly technical, far from default blue.    */
+
+[data-palette='indigo'] {
+  color-scheme: light;
+  --bg: #fafafc;
+  --surface: #f1f2f6;
+  --text: #16181f;
+  --text-muted: #575c6b;
+  --border: #dfe1ea;
+  --accent: #3b3f8f;
+  --accent-hover: #2e3273;
+  --accent-tint: #ebecf5;
+}
+
+[data-palette='indigo'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #131420;
+  --surface: #1b1c2a;
+  --text: #e8e9ef;
+  --text-muted: #a2a5b5;
+  --border: #2b2d40;
+  --accent: #9aa0e8;
+  --accent-hover: #b3b8f0;
+  --accent-tint: rgba(154, 160, 232, 0.12);
+}
+
+/* ------------------------------------------------------------------ clay */
+/* Warm cream + terracotta: earthy, distinctive.                           */
+
+[data-palette='clay'] {
+  color-scheme: light;
+  --bg: #faf6f0;
+  --surface: #f3ece2;
+  --text: #201c18;
+  --text-muted: #6b6157;
+  --border: #e6dccd;
+  --accent: #a8442c;
+  --accent-hover: #8d3722;
+  --accent-tint: #f2e4dc;
+}
+
+[data-palette='clay'][data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #161311;
+  --surface: #1e1a17;
+  --text: #ebe7e2;
+  --text-muted: #aba39a;
+  --border: #322c26;
+  --accent: #e08b70;
+  --accent-hover: #eaa58f;
+  --accent-tint: rgba(224, 139, 112, 0.12);
+}

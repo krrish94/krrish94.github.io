@@ -1,0 +1,101 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  posts: CollectionEntry<'posts'>[];
+}
+
+const { posts } = Astro.props;
+
+// Same reading-time formula as the old blog index (al-folio):
+// floor(words / 180) + 1. Verified to reproduce the deployed values.
+const readTime = (body: string) =>
+  Math.floor(body.split(/\s+/).filter(Boolean).length / 180) + 1;
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
+
+const items = posts
+  .slice()
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .map((post) => ({
+    post,
+    year: post.data.date.getUTCFullYear(),
+    href: `/blog/${post.data.date.getUTCFullYear()}/${post.id}/`,
+  }));
+---
+
+<ul class="post-list">
+  {
+    items.map(({ post, year, href }) => (
+      <li class="post-item">
+        <h3 class="post-item-title">
+          <a href={href}>{post.data.title}</a>
+        </h3>
+        <p class="post-item-meta muted">
+          {readTime(post.body ?? '')} min read &middot; {formatDate(post.data.date)}
+        </p>
+        <p class="post-item-tags">
+          <a href={`/blog/${year}/`}>{year}</a>
+          {post.data.categories.map((cat) => (
+            <>
+              {' '}&middot; <a href={`/blog/category/${cat}/`}>{cat}</a>
+            </>
+          ))}
+        </p>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .post-item {
+    padding-block: 1.25rem;
+    border-bottom: var(--border-w) solid var(--border);
+  }
+
+  .post-item:first-child {
+    border-top: var(--border-w) solid var(--border);
+  }
+
+  .post-item-title {
+    font-size: 1.15rem;
+  }
+
+  .post-item-title a {
+    color: var(--text);
+  }
+
+  .post-item-title a:hover {
+    color: var(--accent);
+  }
+
+  .post-item-meta {
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+
+  .post-item-tags {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+  }
+
+  .post-item-tags a {
+    color: var(--text-muted);
+  }
+
+  .post-item-tags a:hover {
+    color: var(--accent);
+  }
+</style>

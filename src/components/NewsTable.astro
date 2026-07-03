@@ -1,0 +1,91 @@
+---
+import { render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entries: CollectionEntry<'news'>[];
+}
+
+const { entries } = Astro.props;
+
+const items = await Promise.all(
+  entries.map(async (entry) => ({
+    entry,
+    Content: (await render(entry)).Content,
+  }))
+);
+
+// Same format as the old news table: "%b %-d, %Y" (e.g. "Oct 19, 2025").
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  });
+---
+
+<div class="news-scroll">
+  <table class="news-table">
+    <tbody>
+      {
+        items.map(({ entry, Content }) => (
+          <tr>
+            <th scope="row">
+              <time datetime={entry.data.date.toISOString().slice(0, 10)}>
+                {formatDate(entry.data.date)}
+              </time>
+            </th>
+            <td>
+              <Content />
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<style>
+  /* Scrollable once there are more than a few items, like the old site. */
+  .news-scroll {
+    max-height: 20vh;
+    min-height: 10rem;
+    overflow-y: auto;
+    border-block: var(--border-w) solid var(--border);
+  }
+
+  .news-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.925rem;
+  }
+
+  .news-table th {
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    padding: 0.35rem 1.25rem 0.35rem 0;
+    width: 7.5rem;
+  }
+
+  .news-table td {
+    padding: 0.35rem 0;
+  }
+
+  .news-table td :global(p) {
+    margin: 0;
+  }
+
+  .news-table td :global(a) {
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--accent) 45%, transparent);
+    text-underline-offset: 3px;
+  }
+
+  .news-table td :global(a:hover) {
+    text-decoration-color: var(--accent);
+  }
+</style>
