@@ -308,10 +308,12 @@ for (const [path, title, date] of postChecks) {
   if (!text.includes(date)) fail(`${path}: missing date "${date}"`);
   // body text parity vs the deployed post page: the full normalized text of
   // the new post body must appear verbatim in the deployed article (which
-  // additionally contains header/footer chrome).
+  // additionally contains header/footer chrome). The old built site lives at
+  // the immutable `jekyll-final` tag (master became the Astro source at the
+  // 2026-07-02 cutover).
   const oldPost = norm(
     (await import('node:child_process')).execSync(
-      `git show master:${path.replace('/index.html', '')}/index.html`,
+      `git show jekyll-final:${path.replace('/index.html', '')}/index.html`,
       { cwd: ROOT, maxBuffer: 1024 * 1024 * 16 }
     ).toString().match(/<article[^>]*>([\s\S]*?)<\/article>/)?.[1] ?? ''
   );
