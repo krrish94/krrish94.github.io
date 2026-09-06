@@ -55,13 +55,16 @@ authors:
   - name: Jane Coauthor
     url: https://jane.example.com   # optional hyperlink
     equal: true             # optional: renders a trailing * (equal contribution)
+    advising: true          # optional: renders a trailing † (equal advising)
 venue: CoRL                 # rendered in italics
 year: 2026
 selected: true              # optional: ALSO show under homepage "Featured publications"
 featured: true              # optional: highlighted title on /publications/
 recognition: Best paper award   # optional: emphasized line under the venue
 preview: /assets/img/publication_preview/mypaper.gif  # image (see below), or…
-abbr: CoRL                  # …a text badge if you have no preview image
+previewVideo: /assets/video/publication_preview/mypaper.mp4 # lazy looping video
+previewPoster: /assets/img/publication_preview/mypaper-poster.jpg # fallback
+abbr: CoRL                  # …a text badge if you have no preview media
 previewAlt: One-sentence alt text for the preview image.
 links:                      # all optional; buttons appear in a fixed order
   pdf: https://…            # PDF | also: supp, poster, slides (local files:
@@ -90,6 +93,10 @@ Notes:
   public version you want people to copy.
 - Preview images live in `public/assets/img/publication_preview/` (GIFs
   animate; images are letterboxed to 4:3, so any aspect ratio works).
+- Preview videos live in `public/assets/video/publication_preview/`. Keep them
+  silent, short, H.264, and around 400px wide; include a compressed poster.
+  They load only when near the viewport, pause off-screen, and stay still for
+  visitors who prefer reduced motion.
 - The build fails loudly if a required field is missing or mistyped
   (schema: `src/content.config.ts`).
 - The publications page groups by `year` (descending) automatically — no

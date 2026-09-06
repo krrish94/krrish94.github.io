@@ -16,6 +16,8 @@ const {
   featured,
   recognition,
   preview,
+  previewVideo,
+  previewPoster,
   previewAlt,
   abbr,
   links,
@@ -80,6 +82,23 @@ const ICONS: Record<string, string> = {
     {
       preview ? (
         <img class="pub-teaser" src={preview} alt={previewAlt} loading="lazy" />
+      ) : previewVideo ? (
+        <video
+          class="pub-teaser"
+          muted
+          loop
+          playsinline
+          preload="none"
+          poster={previewPoster}
+          aria-label={previewAlt}
+          data-preview-video
+        >
+          <source
+            data-src={previewVideo}
+            type={previewVideo.endsWith('.webm') ? 'video/webm' : 'video/mp4'}
+          />
+          {previewAlt}
+        </video>
       ) : abbr ? (
         <span class="pill">{abbr}</span>
       ) : null
@@ -107,6 +126,7 @@ const ICONS: Record<string, string> = {
               {isLast && authors.length > 1 && 'and '}
               {name}
               {a.equal && '*'}
+              {a.advising && '†'}
               {!isLast && ', '}
             </span>
           );
@@ -186,6 +206,7 @@ const ICONS: Record<string, string> = {
   /* contain (not cover): paper figures come in wild aspect ratios; letterbox
      them on the surface tone rather than cropping */
   .pub-teaser {
+    display: block;
     width: 100%;
     aspect-ratio: 4 / 3;
     object-fit: contain;
@@ -298,6 +319,47 @@ const ICONS: Record<string, string> = {
 </style>
 
 <script>
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const loadPreviewVideo = (video: HTMLVideoElement) => {
+    if (video.dataset.previewLoaded === 'true') return;
+    const source = video.querySelector<HTMLSourceElement>('source[data-src]');
+    if (!source?.dataset.src) return;
+    source.src = source.dataset.src;
+    video.dataset.previewLoaded = 'true';
+    video.load();
+  };
+
+  document.querySelectorAll<HTMLVideoElement>('video[data-preview-video]').forEach((video) => {
+    if (video.dataset.previewReady === 'true') return;
+    video.dataset.previewReady = 'true';
+
+    if (reducedMotion) {
+      loadPreviewVideo(video);
+      video.controls = true;
+      return;
+    }
+
+    if (!('IntersectionObserver' in window)) {
+      loadPreviewVideo(video);
+      void video.play().catch(() => undefined);
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry?.isIntersecting) {
+          loadPreviewVideo(video);
+          void video.play().catch(() => undefined);
+        } else {
+          video.pause();
+        }
+      },
+      { rootMargin: '250px 0px', threshold: 0.01 }
+    );
+    observer.observe(video);
+  });
+
   // One delegated listener for all publication toggles on the page: each
   // button shows/hides its own panel; any combination may be open at once
   // (matching the old site's jQuery behavior).

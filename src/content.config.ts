@@ -18,6 +18,7 @@ const publications = defineCollection({
           url: z.string().optional(), // resolved coauthor link
           self: z.boolean().default(false), // rendered emphasized, never linked
           equal: z.boolean().default(false), // trailing '*' (equal contribution)
+          advising: z.boolean().default(false), // trailing '†' (equal advising)
         })
       )
       .min(1),
@@ -28,6 +29,8 @@ const publications = defineCollection({
     featured: z.boolean().default(false), // highlighted title on /publications/
     recognition: z.string().optional(), // e.g. "Best paper award"
     preview: z.string().optional(), // image path/URL, pre-resolved
+    previewVideo: z.string().optional(), // lightweight looping MP4/WebM teaser
+    previewPoster: z.string().optional(), // static fallback for a video teaser
     previewAlt: z.string().default(''),
     abbr: z.string().optional(), // venue badge when there is no preview
     links: z
