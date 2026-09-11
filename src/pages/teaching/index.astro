@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import TeachingEntry from '../../components/TeachingEntry.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const courses = (await getCollection('teaching')).sort(
+  (a, b) => b.data.year - a.data.year || a.data.order - b.data.order
+);
+---
+
+<BaseLayout
+  title="Teaching"
+  description="Courses taught by Krishna Murthy Jatavallabhula."
+>
+  <h1 class="page-title">Teaching</h1>
+
+  <div class="course-list">
+    {courses.map((course) => <TeachingEntry course={course} />)}
+  </div>
+</BaseLayout>
+
+<style>
+  .course-list {
+    margin-bottom: 3rem;
+  }
+
+  .course-list :global(.course + .course) {
+    margin-top: 2.5rem;
+  }
+</style>

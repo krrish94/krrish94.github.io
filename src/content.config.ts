@@ -74,4 +74,22 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { publications, news, posts };
+// Courses shown on /teaching/. The Markdown body is the course description;
+// frontmatter contains only structured display metadata.
+const teaching = defineCollection({
+  loader: glob({ pattern: '*.md', base: './src/content/teaching' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      term: z.string(),
+      year: z.number().int(),
+      institution: z.string(),
+      courseCode: z.string().optional(),
+      order: z.number().int().default(0),
+      image: image(),
+      imageAlt: z.string(),
+      website: z.string().url().optional(),
+    }),
+});
+
+export const collections = { publications, news, posts, teaching };

@@ -128,6 +128,32 @@ auto-computed read time. The RSS feed (/feed.xml) updates automatically.
 - **Featured publications**: set `selected: true` on entries (shown in
   papers.bib-era `order`).
 
+## Add a course to the Teaching page
+
+Create `src/content/teaching/course-name-term-year.md`:
+
+```markdown
+---
+title: Course title
+term: Fall
+year: 2026
+institution: Johns Hopkins University
+courseCode: EN.601.000 / EN.601.001   # optional
+order: 1                               # tie-break within the same year
+image: ../../assets/teaching/course-image.webp
+imageAlt: A concise description of the course image.
+website: https://course.example.com/   # optional
+---
+
+Write the course description here in Markdown. Links, *emphasis*, lists,
+and additional paragraphs all work normally.
+```
+
+Course entries are shown newest-year first. Put course images in
+`src/assets/teaching/`; Astro creates responsive image sizes at build time.
+The page layout and styling live separately in
+`src/components/TeachingEntry.astro` and `src/pages/teaching/index.astro`.
+
 ## Site-wide knobs — `src/config/site.ts`
 
 Name, meta description, palette, GA measurement ID, sidebar links, subtitle,

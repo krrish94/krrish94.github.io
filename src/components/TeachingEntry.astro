@@ -1,0 +1,126 @@
+---
+import { Image } from 'astro:assets';
+import { render, type CollectionEntry } from 'astro:content';
+
+interface Props {
+  course: CollectionEntry<'teaching'>;
+}
+
+const { course } = Astro.props;
+const { Content } = await render(course);
+const {
+  title,
+  term,
+  year,
+  institution,
+  courseCode,
+  image,
+  imageAlt,
+  website,
+} = course.data;
+---
+
+<article class="course">
+  <Image
+    class="course-image"
+    src={image}
+    alt={imageAlt}
+    widths={[480, 800, 1200]}
+    sizes="(max-width: 760px) calc(100vw - 2rem), 40vw"
+    loading="lazy"
+  />
+
+  <div class="course-body">
+    <p class="course-meta">
+      <span>{term} {year}</span>
+      <span aria-hidden="true">·</span>
+      <span>{institution}</span>
+    </p>
+    <h2>{title}</h2>
+    {courseCode && <p class="course-code muted">{courseCode}</p>}
+
+    {
+      website && (
+        <p class="course-links">
+          <a
+            class="btn btn--primary"
+            href={website}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Course website
+          </a>
+        </p>
+      )
+    }
+
+    <div class="course-description prose">
+      <Content />
+    </div>
+  </div>
+</article>
+
+<style>
+  .course {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+    gap: clamp(1.5rem, 4vw, 2.75rem);
+    align-items: start;
+    padding-block: 1.5rem;
+    border-top: var(--border-w) solid var(--border);
+    border-bottom: var(--border-w) solid var(--border);
+  }
+
+  .course-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    background: var(--surface);
+    border: var(--border-w) solid var(--border);
+    border-radius: var(--radius);
+  }
+
+  .course-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.55rem;
+    color: var(--accent);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }
+
+  .course h2 {
+    margin-top: 0.35rem;
+    font-size: clamp(1.35rem, 1.1rem + 0.8vw, 1.8rem);
+  }
+
+  .course-code {
+    margin-top: 0.25rem;
+    font-size: 0.9rem;
+  }
+
+  .course-links {
+    margin-top: 0.85rem;
+  }
+
+  .course-description {
+    margin-top: 1.1rem;
+  }
+
+  .course-description :global(p:first-child) {
+    margin-block-start: 0;
+  }
+
+  .course-description :global(p:last-child) {
+    margin-block-end: 0;
+  }
+
+  @media (max-width: 760px) {
+    .course {
+      grid-template-columns: 1fr;
+      gap: 1.25rem;
+    }
+  }
+</style>
